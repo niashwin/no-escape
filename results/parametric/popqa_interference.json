@@ -1,0 +1,158 @@
+{
+  "architecture": "parametric",
+  "experiment": "popqa_interference",
+  "threshold": 0.4,
+  "per_seed": {
+    "42": {
+      "0-50": {
+        "accuracy": 1.0,
+        "n_questions": 3,
+        "n_near_range": [
+          0,
+          50
+        ]
+      },
+      "50-200": {
+        "accuracy": 0.26,
+        "n_questions": 100,
+        "n_near_range": [
+          50,
+          200
+        ]
+      },
+      "200-500": {
+        "accuracy": 0.17,
+        "n_questions": 100,
+        "n_near_range": [
+          200,
+          500
+        ]
+      },
+      "500-1000": {
+        "accuracy": 0.17,
+        "n_questions": 100,
+        "n_near_range": [
+          500,
+          1000
+        ]
+      },
+      "1000+": {
+        "accuracy": 0.1,
+        "n_questions": 100,
+        "n_near_range": [
+          1000,
+          100000
+        ]
+      }
+    },
+    "123": {
+      "0-50": {
+        "accuracy": 1.0,
+        "n_questions": 3,
+        "n_near_range": [
+          0,
+          50
+        ]
+      },
+      "50-200": {
+        "accuracy": 0.22,
+        "n_questions": 100,
+        "n_near_range": [
+          50,
+          200
+        ]
+      },
+      "200-500": {
+        "accuracy": 0.21,
+        "n_questions": 100,
+        "n_near_range": [
+          200,
+          500
+        ]
+      },
+      "500-1000": {
+        "accuracy": 0.11,
+        "n_questions": 100,
+        "n_near_range": [
+          500,
+          1000
+        ]
+      },
+      "1000+": {
+        "accuracy": 0.11,
+        "n_questions": 100,
+        "n_near_range": [
+          1000,
+          100000
+        ]
+      }
+    },
+    "456": {
+      "0-50": {
+        "accuracy": 1.0,
+        "n_questions": 3,
+        "n_near_range": [
+          0,
+          50
+        ]
+      },
+      "50-200": {
+        "accuracy": 0.29,
+        "n_questions": 100,
+        "n_near_range": [
+          50,
+          200
+        ]
+      },
+      "200-500": {
+        "accuracy": 0.13,
+        "n_questions": 100,
+        "n_near_range": [
+          200,
+          500
+        ]
+      },
+      "500-1000": {
+        "accuracy": 0.13,
+        "n_questions": 100,
+        "n_near_range": [
+          500,
+          1000
+        ]
+      },
+      "1000+": {
+        "accuracy": 0.13,
+        "n_questions": 100,
+        "n_near_range": [
+          1000,
+          100000
+        ]
+      }
+    }
+  },
+  "aggregated": {
+    "0-50": {
+      "accuracy_mean": 1.0,
+      "accuracy_std": 0.0
+    },
+    "50-200": {
+      "accuracy_mean": 0.25666666666666665,
+      "accuracy_std": 0.02867441755680875
+    },
+    "200-500": {
+      "accuracy_mean": 0.17,
+      "accuracy_std": 0.03265986323710904
+    },
+    "500-1000": {
+      "accuracy_mean": 0.1366666666666667,
+      "accuracy_std": 0.02494438257849295
+    },
+    "1000+": {
+      "accuracy_mean": 0.11333333333333334,
+      "accuracy_std": 0.012472191289246471
+    }
+  },
+  "power_law_fit": {
+    "b": 0.21460696819452635
+  }
+}

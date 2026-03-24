@@ -1,0 +1,44 @@
+{
+  "architecture": "graph",
+  "experiment": "tot",
+  "per_seed": {
+    "42": {
+      "seed": 42,
+      "tot_rate": 0.0265,
+      "n_tot_states": 265,
+      "n_queries": 10000
+    },
+    "123": {
+      "seed": 123,
+      "tot_rate": 0.0273,
+      "n_tot_states": 273,
+      "n_queries": 10000
+    },
+    "456": {
+      "seed": 456,
+      "tot_rate": 0.028,
+      "n_tot_states": 280,
+      "n_queries": 10000
+    },
+    "789": {
+      "seed": 789,
+      "tot_rate": 0.0301,
+      "n_tot_states": 301,
+      "n_queries": 10000
+    },
+    "1024": {
+      "seed": 1024,
+      "tot_rate": 0.0292,
+      "n_tot_states": 292,
+      "n_queries": 10000
+    }
+  },
+  "aggregated": {
+    "tot_rate_mean": 0.028220000000000002,
+    "tot_rate_std": 0.0012921300244170472,
+    "tot_rate_ci": [
+      0.02712,
+      0.029359999999999997
+    ]
+  }
+}

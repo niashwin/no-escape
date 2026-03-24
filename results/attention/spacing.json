@@ -1,0 +1,164 @@
+{
+  "architecture": "attention",
+  "experiment": "spacing",
+  "per_seed": {
+    "42": {
+      "seed": 42,
+      "conditions": {
+        "massed": {
+          "retention": 1.0,
+          "correct": 30,
+          "total": 30
+        },
+        "short": {
+          "retention": 0.0,
+          "correct": 0,
+          "total": 30
+        },
+        "medium": {
+          "retention": 0.0,
+          "correct": 0,
+          "total": 30
+        },
+        "long": {
+          "retention": 0.0,
+          "correct": 0,
+          "total": 30
+        }
+      },
+      "ordering_correct": false
+    },
+    "123": {
+      "seed": 123,
+      "conditions": {
+        "massed": {
+          "retention": 1.0,
+          "correct": 30,
+          "total": 30
+        },
+        "short": {
+          "retention": 0.0,
+          "correct": 0,
+          "total": 30
+        },
+        "medium": {
+          "retention": 0.0,
+          "correct": 0,
+          "total": 30
+        },
+        "long": {
+          "retention": 0.0,
+          "correct": 0,
+          "total": 30
+        }
+      },
+      "ordering_correct": false
+    },
+    "456": {
+      "seed": 456,
+      "conditions": {
+        "massed": {
+          "retention": 1.0,
+          "correct": 30,
+          "total": 30
+        },
+        "short": {
+          "retention": 0.0,
+          "correct": 0,
+          "total": 30
+        },
+        "medium": {
+          "retention": 0.0,
+          "correct": 0,
+          "total": 30
+        },
+        "long": {
+          "retention": 0.0,
+          "correct": 0,
+          "total": 30
+        }
+      },
+      "ordering_correct": false
+    },
+    "789": {
+      "seed": 789,
+      "conditions": {
+        "massed": {
+          "retention": 1.0,
+          "correct": 30,
+          "total": 30
+        },
+        "short": {
+          "retention": 0.0,
+          "correct": 0,
+          "total": 30
+        },
+        "medium": {
+          "retention": 0.0,
+          "correct": 0,
+          "total": 30
+        },
+        "long": {
+          "retention": 0.0,
+          "correct": 0,
+          "total": 30
+        }
+      },
+      "ordering_correct": false
+    },
+    "1024": {
+      "seed": 1024,
+      "conditions": {
+        "massed": {
+          "retention": 1.0,
+          "correct": 30,
+          "total": 30
+        },
+        "short": {
+          "retention": 0.0,
+          "correct": 0,
+          "total": 30
+        },
+        "medium": {
+          "retention": 0.0,
+          "correct": 0,
+          "total": 30
+        },
+        "long": {
+          "retention": 0.0,
+          "correct": 0,
+          "total": 30
+        }
+      },
+      "ordering_correct": false
+    }
+  },
+  "aggregated": {
+    "massed_mean": 1.0,
+    "massed_std": 0.0,
+    "massed_ci": [
+      1.0,
+      1.0
+    ],
+    "short_mean": 0.0,
+    "short_std": 0.0,
+    "short_ci": [
+      0.0,
+      0.0
+    ],
+    "medium_mean": 0.0,
+    "medium_std": 0.0,
+    "medium_ci": [
+      0.0,
+      0.0
+    ],
+    "long_mean": 0.0,
+    "long_std": 0.0,
+    "long_ci": [
+      0.0,
+      0.0
+    ],
+    "cohens_d_long_vs_massed": -100000000.0,
+    "ordering_correct_count": 0
+  }
+}

@@ -1,0 +1,74 @@
+{
+  "mathematical": {
+    "theorem1_proof": {
+      "pass": true
+    },
+    "pr_lb_agreement": {
+      "pr": 158.2,
+      "lb": 10.6,
+      "pass": false,
+      "note": "Factor 15. Both confirm d_eff << d_nom."
+    },
+    "theorem2a_caps": {
+      "pass": true
+    },
+    "theorem2b_anderson_schooler": {
+      "alpha": 0.459,
+      "pass": true
+    },
+    "theorem3_drm_caps": {
+      "n_in_cap": 24,
+      "n_total": 24,
+      "pass": true
+    },
+    "lemma_proofs": {
+      "pass": true
+    },
+    "corollary": {
+      "pass": true
+    },
+    "solutions_fail": {
+      "pass": true
+    }
+  },
+  "empirical": {
+    "all5_b_gt_0": {
+      "pass": false,
+      "note": "3/5 show b>0. Filesystem b=0 (BM25). Attention phase transition."
+    },
+    "all5_drm_fa_gt_unrel": {
+      "pass": false,
+      "note": "2/5 behavioral. 24/24 geometric."
+    },
+    "all5_spacing_long_gt_massed": {
+      "pass": false,
+      "note": "2/5 show correct ordering."
+    },
+    "all5_deff_lt_100": {
+      "pass": false,
+      "note": "2/5 via PR. All via LB."
+    },
+    "ge3_b_in_human_range": {
+      "pass": true,
+      "note": "VDB 0.440, Graph 0.478."
+    },
+    "ge3_lure_fa_within_15pp": {
+      "pass": false,
+      "note": "1/5 within 15pp of 0.55."
+    }
+  },
+  "solution": {
+    "each_5_points": {
+      "pass": true
+    },
+    "no_solution_works": {
+      "pass": true
+    }
+  },
+  "writing": {
+    "noescape_clear": true,
+    "math_accessible": true,
+    "ai_implications": true,
+    "no_overclaim": true
+  }
+}

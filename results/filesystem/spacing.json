@@ -1,0 +1,124 @@
+{
+  "architecture": "filesystem",
+  "experiment": "spacing",
+  "per_seed": {
+    "42": {
+      "seed": 42,
+      "conditions": {
+        "massed": {
+          "retention": 1.0
+        },
+        "short": {
+          "retention": 1.0
+        },
+        "medium": {
+          "retention": 1.0
+        },
+        "long": {
+          "retention": 1.0
+        }
+      },
+      "ordering_correct": true
+    },
+    "123": {
+      "seed": 123,
+      "conditions": {
+        "massed": {
+          "retention": 1.0
+        },
+        "short": {
+          "retention": 1.0
+        },
+        "medium": {
+          "retention": 1.0
+        },
+        "long": {
+          "retention": 1.0
+        }
+      },
+      "ordering_correct": true
+    },
+    "456": {
+      "seed": 456,
+      "conditions": {
+        "massed": {
+          "retention": 1.0
+        },
+        "short": {
+          "retention": 1.0
+        },
+        "medium": {
+          "retention": 1.0
+        },
+        "long": {
+          "retention": 1.0
+        }
+      },
+      "ordering_correct": true
+    },
+    "789": {
+      "seed": 789,
+      "conditions": {
+        "massed": {
+          "retention": 1.0
+        },
+        "short": {
+          "retention": 1.0
+        },
+        "medium": {
+          "retention": 1.0
+        },
+        "long": {
+          "retention": 1.0
+        }
+      },
+      "ordering_correct": true
+    },
+    "1024": {
+      "seed": 1024,
+      "conditions": {
+        "massed": {
+          "retention": 1.0
+        },
+        "short": {
+          "retention": 1.0
+        },
+        "medium": {
+          "retention": 1.0
+        },
+        "long": {
+          "retention": 1.0
+        }
+      },
+      "ordering_correct": true
+    }
+  },
+  "aggregated": {
+    "massed_mean": 1.0,
+    "massed_std": 0.0,
+    "massed_ci": [
+      1.0,
+      1.0
+    ],
+    "short_mean": 1.0,
+    "short_std": 0.0,
+    "short_ci": [
+      1.0,
+      1.0
+    ],
+    "medium_mean": 1.0,
+    "medium_std": 0.0,
+    "medium_ci": [
+      1.0,
+      1.0
+    ],
+    "long_mean": 1.0,
+    "long_std": 0.0,
+    "long_ci": [
+      1.0,
+      1.0
+    ],
+    "cohens_d_long_vs_massed": 0.0,
+    "ordering_correct_count": 5
+  }
+}

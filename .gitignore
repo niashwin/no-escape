@@ -1,0 +1,52 @@
+# Large data files (embeddings, cached sentences)
+data/
+*.npy
+
+# HIDE reference codebase (external dependency)
+hide-project*/
+
+# Redundant reproducibility copy
+reproducibility/
+
+# Internal working docs (Claude session artifacts)
+CLAUDE.md
+MEMORY.md
+spec.md
+spec_ralph.md
+memory_universals_spec_v2.docx
+
+# Superseded run scripts
+run_fast.py
+run_all_experiments.py
+run_calibration.py
+run_backfill.py
+run_llm_archs.py
+run_llm_phase2.py
+run_all.py
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+.cache/
+
+# Claude Code session files
+.claude/
+
+# Old paper versions (noescape.pdf/tex is final)
+paper/noescape_v[0-9]*.pdf
+paper/noescape_v[0-9]*.tex
+
+# LaTeX build artifacts
+paper/*.aux
+paper/*.bbl
+paper/*.blg
+paper/*.log
+paper/*.out
+paper/*.synctex.gz
+paper/*.fls
+paper/*.fdb_latexmk
+
+# OS files
+.DS_Store
+Thumbs.db

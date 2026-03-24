@@ -1,0 +1,44 @@
+{
+  "architecture": "vector_db",
+  "experiment": "tot",
+  "per_seed": {
+    "42": {
+      "seed": 42,
+      "tot_rate": 0.0198,
+      "n_tot_states": 198,
+      "n_queries": 10000
+    },
+    "123": {
+      "seed": 123,
+      "tot_rate": 0.0212,
+      "n_tot_states": 212,
+      "n_queries": 10000
+    },
+    "456": {
+      "seed": 456,
+      "tot_rate": 0.0172,
+      "n_tot_states": 172,
+      "n_queries": 10000
+    },
+    "789": {
+      "seed": 789,
+      "tot_rate": 0.0185,
+      "n_tot_states": 185,
+      "n_queries": 10000
+    },
+    "1024": {
+      "seed": 1024,
+      "tot_rate": 0.0228,
+      "n_tot_states": 228,
+      "n_queries": 10000
+    }
+  },
+  "aggregated": {
+    "tot_rate_mean": 0.0199,
+    "tot_rate_std": 0.0019677398201998152,
+    "tot_rate_ci": [
+      0.01824,
+      0.02162
+    ]
+  }
+}

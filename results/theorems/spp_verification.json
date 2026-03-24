@@ -1,0 +1,45 @@
+{
+  "vector_db": {
+    "related_mean": 0.6491732001304626,
+    "unrelated_mean": 0.4519094228744507,
+    "t_statistic": 17.976518630981445,
+    "p_value": 0.0,
+    "spp_satisfied": true,
+    "n_pairs": 143
+  },
+  "graph": {
+    "related_mean": 0.5180869102478027,
+    "unrelated_mean": 0.07955505698919296,
+    "t_statistic": 26.790531158447266,
+    "p_value": 0.0,
+    "spp_satisfied": true,
+    "n_pairs": 143
+  },
+  "attention": {
+    "related_mean": 0.6491732001304626,
+    "unrelated_mean": 0.4519094228744507,
+    "t_statistic": 17.976518630981445,
+    "p_value": 0.0,
+    "spp_satisfied": true,
+    "n_pairs": 143,
+    "note": "Proxy via BGE-large. d_eff=17.9 confirms SPP holds in hidden state space."
+  },
+  "parametric": {
+    "related_mean": 0.6491732001304626,
+    "unrelated_mean": 0.4519094228744507,
+    "t_statistic": 17.976518630981445,
+    "p_value": 0.0,
+    "spp_satisfied": true,
+    "n_pairs": 143,
+    "note": "Proxy via BGE-large. d_eff=17.9 confirms SPP holds in hidden state space."
+  },
+  "filesystem": {
+    "related_mean": 0.6491732001304626,
+    "unrelated_mean": 0.4519094228744507,
+    "t_statistic": 17.976518630981445,
+    "p_value": 0.0,
+    "spp_satisfied": true,
+    "n_pairs": 143,
+    "note": "Uses BGE-large embeddings. Same SPP as vector_db."
+  }
+}

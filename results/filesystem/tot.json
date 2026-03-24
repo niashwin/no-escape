@@ -1,0 +1,44 @@
+{
+  "architecture": "filesystem",
+  "experiment": "tot",
+  "per_seed": {
+    "42": {
+      "seed": 42,
+      "tot_rate": 0.01,
+      "n_tot_states": 1,
+      "n_queries": 100
+    },
+    "123": {
+      "seed": 123,
+      "tot_rate": 0.01,
+      "n_tot_states": 1,
+      "n_queries": 100
+    },
+    "456": {
+      "seed": 456,
+      "tot_rate": 0.01,
+      "n_tot_states": 1,
+      "n_queries": 100
+    },
+    "789": {
+      "seed": 789,
+      "tot_rate": 0.01,
+      "n_tot_states": 1,
+      "n_queries": 100
+    },
+    "1024": {
+      "seed": 1024,
+      "tot_rate": 0.01,
+      "n_tot_states": 1,
+      "n_queries": 100
+    }
+  },
+  "aggregated": {
+    "tot_rate_mean": 0.01,
+    "tot_rate_std": 0.0,
+    "tot_rate_ci": [
+      0.01,
+      0.01
+    ]
+  }
+}

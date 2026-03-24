@@ -1,0 +1,202 @@
+# config.yaml — All hyperparameters for No Escape experiments
+
+seeds: [42, 123, 456, 789, 1024]
+bootstrap_resamples: 10000
+confidence_level: 0.95
+
+# Output directories
+output:
+  results_dir: "results"
+  figures_dir: "figures"
+  paper_dir: "paper"
+
+# Models (all open-weight, run locally)
+models:
+  bge_large:
+    hf_id: "BAAI/bge-large-en-v1.5"
+    dim: 1024
+    license: "MIT"
+  minilm:
+    hf_id: "sentence-transformers/all-MiniLM-L6-v2"
+    dim: 384
+    license: "Apache-2.0"
+  qwen:
+    hf_id: "Qwen/Qwen2.5-7B-Instruct"
+    license: "Apache-2.0"
+    quantization: "4bit"  # Use if OOM on single A100
+    fallback: "Qwen/Qwen2.5-3B-Instruct"
+
+# Datasets (all public)
+datasets:
+  wikipedia:
+    hf_id: "wikipedia"
+    config: "20220301.en"
+    streaming: true
+    n_sentences: 200000
+    n_articles: 2345
+    sentences_per_article: 20
+  drm:
+    path: "hide-project/data/drm_word_lists.json"
+    n_lists: 24
+    words_per_list: 15
+  templama:
+    hf_id: "Yova/templama"
+  lama:
+    hf_id: "lama"
+    subset: "trex"
+    n_triples: 40000
+  sts:
+    hf_id: "mteb/stsbenchmark-sts"
+
+# Architecture-specific configs
+architectures:
+  vector_db:
+    model: "bge_large"
+    dim: 1024
+    temporal_dim: 64
+    temporal_scales: [1, 30, 365]
+    decay_psi: 0.5
+    decay_beta: 1.0
+    noise_sigma: 0.25
+  attention:
+    model: "qwen"
+    context_length: 32768
+    n_target_facts: 100
+    near_competitor_counts: [0, 10, 50, 100, 200, 500, 1000]
+  filesystem:
+    judge_model: "qwen"
+    retrieval_method: "bm25_then_llm"
+    relevance_scale: [1, 10]
+    bm25_top_k: 50
+    max_memories: 10000
+    near_competitor_counts: [0, 50, 500, 2000]
+  graph:
+    model: "minilm"
+    edge_threshold: 0.7
+    pagerank_alpha: 0.85
+    max_nodes: 50000
+  parametric:
+    model: "qwen"
+    probe_layers: "middle"  # layers 12-20 for 32-layer model
+    n_activation_samples: 10000
+    confidence_metric: "logit_probability"
+
+# Experiment protocols
+experiments:
+  ebbinghaus:
+    # Competitor counts to test (architecture-specific overrides above)
+    default_n_near: [0, 10, 50, 100, 200, 500, 1000, 5000, 10000]
+    n_target_facts: 100
+    simulated_days: 30
+    temporal_bins: 10
+    # Power-law fitting
+    fit_model: "power_law"  # accuracy(age) = a * age^(-b) + c
+    fit_bounds:
+      a: [0, 1]
+      b: [0, 5]
+      c: [0, 0.5]
+
+  drm:
+    n_lists: 24
+    threshold_method: "zero_unrelated_fa"
+    # For attention/parametric: yes/no query format
+    query_template_binary: "Did you study the word {word}?"
+    # For vector/graph: cosine threshold
+    theta_range: [0.5, 1.0]
+    theta_steps: 100
+
+  spacing:
+    conditions:
+      massed: {gap_days: [0, 0.001, 0.002]}  # consecutive
+      short: {gap_days: [0, 0.042, 0.083]}    # hours apart
+      medium: {gap_days: [0, 1, 2]}           # days apart
+      long: {gap_days: [0, 7, 14]}            # weeks apart
+    n_facts: 100
+    n_distractors: 25000
+    noise_sigma: 0.25
+    test_day: 30
+
+  tot:
+    n_queries: 1000
+    rank_range: [2, 20]
+    similarity_threshold: 0.5
+    # For LLM-based: partial correctness coding
+    manual_sample_size: 200
+    intercoder_reliability_threshold: 0.8
+
+  dimensionality:
+    n_samples: 10000
+    methods:
+      - participation_ratio  # d_eff = (Σλ)² / Σλ²
+      - levina_bickel        # two-nearest-neighbor estimator
+    variance_thresholds: [0.95, 0.99]  # for d_95, d_99
+
+# Solution analysis configs
+solutions:
+  high_dim:
+    d_values: [64, 128, 256, 512, 1024, 2048, 4096]
+    n_competitors: 10000
+    model: "bge_large"
+  bm25:
+    benchmark: "sts"
+    experiments: ["ebbinghaus", "drm", "spacing", "tot"]
+  orthogonalization:
+    methods: ["gram_schmidt", "random_projection"]
+    benchmark: "sts"
+  compression:
+    cluster_interval: 1000
+    merge_threshold: 0.9
+    min_cluster_size: 5
+
+# Theorem verification configs
+theorems:
+  spp_verification:
+    n_pairs: 1000
+    significance: 0.001  # p-value threshold
+  spherical_cap:
+    d_eff_values: [8, 16, 32, 64, 128, 256, 512]
+    theta_degrees: [10, 20, 30, 45, 60]
+    n_simulation_trials: 100000
+  anderson_schooler:
+    cosine_threshold: 0.7
+    n_sentences: 100000
+  drm_caps:
+    all_24_lists: true
+    compute_angular_distances: true
+    compare_theoretical_vs_empirical: true
+
+# Figure generation
+figures:
+  dpi: 600
+  format: ["pdf", "png"]
+  style: "nature"
+  full_width_mm: 180
+  half_width_mm: 89
+  colors:
+    primary: "#2171B5"     # steel blue
+    secondary: "#CB181D"   # crimson
+    tertiary: "#238B45"    # forest green
+    quaternary: "#6A51A3"  # purple
+    neutral: "#525252"     # dark gray
+    highlight: "#D94801"   # orange
+    # Per-architecture colors
+    vector_db: "#2171B5"
+    attention: "#CB181D"
+    filesystem: "#238B45"
+    graph: "#6A51A3"
+    parametric: "#D94801"
+    human: "#525252"
+
+# Calibration tolerances (for Architecture 1 vs HIDE)
+calibration:
+  forgetting_b:
+    hide_value: 0.460
+    hide_se: 0.092  # 0.183/2 (std/2 as approx SE for 5 seeds)
+    tolerance_se: 2  # within 2 SE
+  drm_fa:
+    hide_value: 0.583
+    tolerance: 0.05
+  spacing_ordering: ["long", "medium", "short", "massed"]
+  tot_rate:
+    hide_value: 0.0366
+    tolerance: 0.03

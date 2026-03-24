@@ -1,0 +1,37 @@
+{
+  "vector_db": {
+    "b": 0.28654468382924064,
+    "lure_fa": 1.0,
+    "spacing_d": -4.242640687119281,
+    "tot_rate": 0.0,
+    "d_eff": 158.1768421403687
+  },
+  "graph": {
+    "b": 0.2725181091685767,
+    "lure_fa": 0.9166666666666666,
+    "spacing_d": 0.0,
+    "tot_rate": 0.0,
+    "d_eff": 127.20755632930553
+  },
+  "attention": {
+    "b": 0,
+    "lure_fa": 0,
+    "spacing_d": 0,
+    "tot_rate": 0,
+    "d_eff": 0
+  },
+  "parametric": {
+    "b": 0,
+    "lure_fa": 0,
+    "spacing_d": 0,
+    "tot_rate": 0,
+    "d_eff": 0
+  },
+  "filesystem": {
+    "b": 0,
+    "lure_fa": 0,
+    "spacing_d": 0,
+    "tot_rate": 0,
+    "d_eff": 0
+  }
+}

@@ -1,0 +1,3993 @@
+{
+  "architecture": "vector_db",
+  "experiment": "drm",
+  "per_seed": {
+    "42": {
+      "seed": 42,
+      "per_list": {
+        "SLEEP": {
+          "studied_mean_sim": 0.8477691769599914,
+          "lure_sim": 0.869317889213562,
+          "unrelated_mean_sim": 0.7029394388198853,
+          "lure_above_082": true,
+          "lure_above_best": true
+        },
+        "NEEDLE": {
+          "studied_mean_sim": 0.8054158131281535,
+          "lure_sim": 0.8753483295440674,
+          "unrelated_mean_sim": 0.7404387354850769,
+          "lure_above_082": true,
+          "lure_above_best": true
+        },
+        "ROUGH": {
+          "studied_mean_sim": 0.8214601119359334,
+          "lure_sim": 0.8580617904663086,
+          "unrelated_mean_sim": 0.7445639610290528,
+          "lure_above_082": true,
+          "lure_above_best": false
+        },
+        "SWEET": {
+          "studied_mean_sim": 0.8451600193977356,
+          "lure_sim": 0.8290784358978271,
+          "unrelated_mean_sim": 0.7368305325508118,
+          "lure_above_082": true,
+          "lure_above_best": false
+        },
+        "CHAIR": {
+          "studied_mean_sim": 0.8400007446606954,
+          "lure_sim": 0.8654493093490601,
+          "unrelated_mean_sim": 0.7387984156608581,
+          "lure_above_082": true,
+          "lure_above_best": true
+        },
+        "WINDOW": {
+          "studied_mean_sim": 0.8132028261820475,
+          "lure_sim": 0.8612492084503174,
+          "unrelated_mean_sim": 0.7528670310974122,
+          "lure_above_082": true,
+          "lure_above_best": false
+        },
+        "SMELL": {
+          "studied_mean_sim": 0.8301159898440044,
+          "lure_sim": 0.9022177457809448,
+          "unrelated_mean_sim": 0.7352857112884521,
+          "lure_above_082": true,
+          "lure_above_best": true
+        },
+        "MOUNTAIN": {
+          "studied_mean_sim": 0.8027871370315551,
+          "lure_sim": 0.8834207653999329,
+          "unrelated_mean_sim": 0.7409024119377137,
+          "lure_above_082": true,
+          "lure_above_best": true
+        },
+        "MUSIC": {
+          "studied_mean_sim": 0.8248344858487447,
+          "lure_sim": 0.8281881809234619,
+          "unrelated_mean_sim": 0.7321822881698609,
+          "lure_above_082": true,
+          "lure_above_best": false
+        },
+        "COLD": {
+          "studied_mean_sim": 0.8574937105178833,
+          "lure_sim": 0.9178606271743774,
+          "unrelated_mean_sim": 0.7437855124473571,
+          "lure_above_082": true,
+          "lure_above_best": true
+        },
+        "ANGER": {
+          "studied_mean_sim": 0.842035706837972,
+          "lure_sim": 0.8923628330230713,
+          "unrelated_mean_sim": 0.7247650384902954,
+          "lure_above_082": true,
+          "lure_above_best": true
+        },
+        "DOCTOR": {
+          "studied_mean_sim": 0.8304252982139587,
+          "lure_sim": 0.905953049659729,
+          "unrelated_mean_sim": 0.7263150811195374,
+          "lure_above_082": true,
+          "lure_above_best": true
+        },
+        "RIVER": {
+          "studied_mean_sim": 0.8241978645324707,
+          "lure_sim": 0.8508210182189941,
+          "unrelated_mean_sim": 0.7436409235000611,
+          "lure_above_082": true,
+          "lure_above_best": false
+        },
+        "FRUIT": {
+          "studied_mean_sim": 0.8414472142855326,
+          "lure_sim": 0.9015421271324158,
+          "unrelated_mean_sim": 0.7233386397361755,
+          "lure_above_082": true,
+          "lure_above_best": true
+        },
+        "BLACK": {
+          "studied_mean_sim": 0.8345003525416056,
+          "lure_sim": 0.8684026598930359,
+          "unrelated_mean_sim": 0.7651412963867188,
+          "lure_above_082": true,
+          "lure_above_best": true
+        },
+        "KING": {
+          "studied_mean_sim": 0.8202660282452902,
+          "lure_sim": 0.8339534997940063,
+          "unrelated_mean_sim": 0.7351897358894348,
+          "lure_above_082": true,
+          "lure_above_best": false
+        },
+        "BREAD": {
+          "studied_mean_sim": 0.849971063931783,
+          "lure_sim": 0.911693811416626,
+          "unrelated_mean_sim": 0.7380501866340637,
+          "lure_above_082": true,
+          "lure_above_best": true
+        },
+        "SPIDER": {
+          "studied_mean_sim": 0.8114460110664368,
+          "lure_sim": 0.8363228440284729,
+          "unrelated_mean_sim": 0.74840087890625,
+          "lure_above_082": true,
+          "lure_above_best": false
+        },
+        "SLOW": {
+          "studied_mean_sim": 0.8114745497703553,
+          "lure_sim": 0.8834695816040039,
+          "unrelated_mean_sim": 0.7609582066535949,
+          "lure_above_082": true,
+          "lure_above_best": true
+        },
+        "MAN": {
+          "studied_mean_sim": 0.8302917957305909,
+          "lure_sim": 0.8499025702476501,
+          "unrelated_mean_sim": 0.7439276099205017,
+          "lure_above_082": true,
+          "lure_above_best": false
+        },
+        "SOFT": {
+          "studied_mean_sim": 0.8311915755271911,
+          "lure_sim": 0.8726128935813904,
+          "unrelated_mean_sim": 0.7682651400566101,
+          "lure_above_082": true,
+          "lure_above_best": true
+        },
+        "THIEF": {
+          "studied_mean_sim": 0.8232764442761739,
+          "lure_sim": 0.8644372224807739,
+          "unrelated_mean_sim": 0.7222109198570251,
+          "lure_above_082": true,
+          "lure_above_best": true
+        },
+        "HIGH": {
+          "studied_mean_sim": 0.8110799948374431,
+          "lure_sim": 0.8344013094902039,
+          "unrelated_mean_sim": 0.7584282279014587,
+          "lure_above_082": true,
+          "lure_above_best": false
+        },
+        "LION": {
+          "studied_mean_sim": 0.8054065227508544,
+          "lure_sim": 0.8468685150146484,
+          "unrelated_mean_sim": 0.7404550194740296,
+          "lure_above_082": true,
+          "lure_above_best": false
+        }
+      },
+      "at_theta_082": {
+        "theta": 0.82,
+        "hit_rate": 0.6055555555555555,
+        "lure_fa_rate": 1.0,
+        "unrelated_fa_rate": 0.0
+      },
+      "best_match": {
+        "theta": 0.8636363636363636,
+        "hit_rate": 0.16944444444444445,
+        "lure_fa_rate": 0.5833333333333334,
+        "unrelated_fa_rate": 0.0
+      },
+      "operating_curve": [
+        {
+          "theta": 0.5,
+          "hit_rate": 1.0,
+          "lure_fa_rate": 1.0,
+          "unrelated_fa_rate": 1.0
+        },
+        {
+          "theta": 0.5050505050505051,
+          "hit_rate": 1.0,
+          "lure_fa_rate": 1.0,
+          "unrelated_fa_rate": 1.0
+        },
+        {
+          "theta": 0.51010101010101,
+          "hit_rate": 1.0,
+          "lure_fa_rate": 1.0,
+          "unrelated_fa_rate": 1.0
+        },
+        {
+          "theta": 0.5151515151515151,
+          "hit_rate": 1.0,
+          "lure_fa_rate": 1.0,
+          "unrelated_fa_rate": 1.0
+        },
+        {
+          "theta": 0.5202020202020202,
+          "hit_rate": 1.0,
+          "lure_fa_rate": 1.0,
+          "unrelated_fa_rate": 1.0
+        },
+        {
+          "theta": 0.5252525252525253,
+          "hit_rate": 1.0,
+          "lure_fa_rate": 1.0,
+          "unrelated_fa_rate": 1.0
+        },
+        {
+          "theta": 0.5303030303030303,
+          "hit_rate": 1.0,
+          "lure_fa_rate": 1.0,
+          "unrelated_fa_rate": 1.0
+        },
+        {
+          "theta": 0.5353535353535354,
+          "hit_rate": 1.0,
+          "lure_fa_rate": 1.0,
+          "unrelated_fa_rate": 1.0
+        },
+        {
+          "theta": 0.5404040404040404,
+          "hit_rate": 1.0,
+          "lure_fa_rate": 1.0,
+          "unrelated_fa_rate": 1.0
+        },
+        {
+          "theta": 0.5454545454545454,
+          "hit_rate": 1.0,
+          "lure_fa_rate": 1.0,
+          "unrelated_fa_rate": 1.0
+        },
+        {
+          "theta": 0.5505050505050505,
+          "hit_rate": 1.0,
+          "lure_fa_rate": 1.0,
+          "unrelated_fa_rate": 1.0
+        },
+        {
+          "theta": 0.5555555555555556,
+          "hit_rate": 1.0,
+          "lure_fa_rate": 1.0,
+          "unrelated_fa_rate": 1.0
+        },
+        {
+          "theta": 0.5606060606060606,
+          "hit_rate": 1.0,
+          "lure_fa_rate": 1.0,
+          "unrelated_fa_rate": 1.0
+        },
+        {
+          "theta": 0.5656565656565656,
+          "hit_rate": 1.0,
+          "lure_fa_rate": 1.0,
+          "unrelated_fa_rate": 1.0
+        },
+        {
+          "theta": 0.5707070707070707,
+          "hit_rate": 1.0,
+          "lure_fa_rate": 1.0,
+          "unrelated_fa_rate": 1.0
+        },
+        {
+          "theta": 0.5757575757575758,
+          "hit_rate": 1.0,
+          "lure_fa_rate": 1.0,
+          "unrelated_fa_rate": 1.0
+        },
+        {
+          "theta": 0.5808080808080808,
+          "hit_rate": 1.0,
+          "lure_fa_rate": 1.0,
+          "unrelated_fa_rate": 1.0
+        },
+        {
+          "theta": 0.5858585858585859,
+          "hit_rate": 1.0,
+          "lure_fa_rate": 1.0,
+          "unrelated_fa_rate": 1.0
+        },
+        {
+          "theta": 0.5909090909090909,
+          "hit_rate": 1.0,
+          "lure_fa_rate": 1.0,
+          "unrelated_fa_rate": 1.0
+        },
+        {
+          "theta": 0.595959595959596,
+          "hit_rate": 1.0,
+          "lure_fa_rate": 1.0,
+          "unrelated_fa_rate": 1.0
+        },
+        {
+          "theta": 0.601010101010101,
+          "hit_rate": 1.0,
+          "lure_fa_rate": 1.0,
+          "unrelated_fa_rate": 1.0
+        },
+        {
+          "theta": 0.6060606060606061,
+          "hit_rate": 1.0,
+          "lure_fa_rate": 1.0,
+          "unrelated_fa_rate": 1.0
+        },
+        {
+          "theta": 0.6111111111111112,
+          "hit_rate": 1.0,
+          "lure_fa_rate": 1.0,
+          "unrelated_fa_rate": 1.0
+        },
+        {
+          "theta": 0.6161616161616161,
+          "hit_rate": 1.0,
+          "lure_fa_rate": 1.0,
+          "unrelated_fa_rate": 1.0
+        },
+        {
+          "theta": 0.6212121212121212,
+          "hit_rate": 1.0,
+          "lure_fa_rate": 1.0,
+          "unrelated_fa_rate": 1.0
+        },
+        {
+          "theta": 0.6262626262626263,
+          "hit_rate": 1.0,
+          "lure_fa_rate": 1.0,
+          "unrelated_fa_rate": 1.0
+        },
+        {
+          "theta": 0.6313131313131313,
+          "hit_rate": 1.0,
+          "lure_fa_rate": 1.0,
+          "unrelated_fa_rate": 1.0
+        },
+        {
+          "theta": 0.6363636363636364,
+          "hit_rate": 1.0,
+          "lure_fa_rate": 1.0,
+          "unrelated_fa_rate": 1.0
+        },
+        {
+          "theta": 0.6414141414141414,
+          "hit_rate": 1.0,
+          "lure_fa_rate": 1.0,
+          "unrelated_fa_rate": 1.0
+        },
+        {
+          "theta": 0.6464646464646464,
+          "hit_rate": 1.0,
+          "lure_fa_rate": 1.0,
+          "unrelated_fa_rate": 1.0
+        },
+        {
+          "theta": 0.6515151515151515,
+          "hit_rate": 1.0,
+          "lure_fa_rate": 1.0,
+          "unrelated_fa_rate": 1.0
+        },
+        {
+          "theta": 0.6565656565656566,
+          "hit_rate": 1.0,
+          "lure_fa_rate": 1.0,
+          "unrelated_fa_rate": 1.0
+        },
+        {
+          "theta": 0.6616161616161617,
+          "hit_rate": 1.0,
+          "lure_fa_rate": 1.0,
+          "unrelated_fa_rate": 0.9916666666666667
+        },
+        {
+          "theta": 0.6666666666666667,
+          "hit_rate": 1.0,
+          "lure_fa_rate": 1.0,
+          "unrelated_fa_rate": 0.9916666666666667
+        },
+        {
+          "theta": 0.6717171717171717,
+          "hit_rate": 1.0,
+          "lure_fa_rate": 1.0,
+          "unrelated_fa_rate": 0.9916666666666667
+        },
+        {
+          "theta": 0.6767676767676768,
+          "hit_rate": 1.0,
+          "lure_fa_rate": 1.0,
+          "unrelated_fa_rate": 0.9916666666666667
+        },
+        {
+          "theta": 0.6818181818181819,
+          "hit_rate": 1.0,
+          "lure_fa_rate": 1.0,
+          "unrelated_fa_rate": 0.9916666666666667
+        },
+        {
+          "theta": 0.6868686868686869,
+          "hit_rate": 1.0,
+          "lure_fa_rate": 1.0,
+          "unrelated_fa_rate": 0.9916666666666667
+        },
+        {
+          "theta": 0.6919191919191919,
+          "hit_rate": 1.0,
+          "lure_fa_rate": 1.0,
+          "unrelated_fa_rate": 0.9833333333333333
+        },
+        {
+          "theta": 0.696969696969697,
+          "hit_rate": 1.0,
+          "lure_fa_rate": 1.0,
+          "unrelated_fa_rate": 0.975
+        },
+        {
+          "theta": 0.702020202020202,
+          "hit_rate": 1.0,
+          "lure_fa_rate": 1.0,
+          "unrelated_fa_rate": 0.95
+        },
+        {
+          "theta": 0.7070707070707071,
+          "hit_rate": 1.0,
+          "lure_fa_rate": 1.0,
+          "unrelated_fa_rate": 0.9333333333333333
+        },
+        {
+          "theta": 0.7121212121212122,
+          "hit_rate": 1.0,
+          "lure_fa_rate": 1.0,
+          "unrelated_fa_rate": 0.9
+        },
+        {
+          "theta": 0.7171717171717171,
+          "hit_rate": 1.0,
+          "lure_fa_rate": 1.0,
+          "unrelated_fa_rate": 0.8583333333333333
+        },
+        {
+          "theta": 0.7222222222222222,
+          "hit_rate": 1.0,
+          "lure_fa_rate": 1.0,
+          "unrelated_fa_rate": 0.7916666666666666
+        },
+        {
+          "theta": 0.7272727272727273,
+          "hit_rate": 0.9972222222222222,
+          "lure_fa_rate": 1.0,
+          "unrelated_fa_rate": 0.7416666666666667
+        },
+        {
+          "theta": 0.7323232323232324,
+          "hit_rate": 0.9888888888888889,
+          "lure_fa_rate": 1.0,
+          "unrelated_fa_rate": 0.675
+        },
+        {
+          "theta": 0.7373737373737375,
+          "hit_rate": 0.9833333333333333,
+          "lure_fa_rate": 1.0,
+          "unrelated_fa_rate": 0.5583333333333333
+        },
+        {
+          "theta": 0.7424242424242424,
+          "hit_rate": 0.975,
+          "lure_fa_rate": 1.0,
+          "unrelated_fa_rate": 0.4583333333333333
+        },
+        {
+          "theta": 0.7474747474747475,
+          "hit_rate": 0.9694444444444444,
+          "lure_fa_rate": 1.0,
+          "unrelated_fa_rate": 0.375
+        },
+        {
+          "theta": 0.7525252525252526,
+          "hit_rate": 0.9694444444444444,
+          "lure_fa_rate": 1.0,
+          "unrelated_fa_rate": 0.3
+        },
+        {
+          "theta": 0.7575757575757576,
+          "hit_rate": 0.9527777777777777,
+          "lure_fa_rate": 1.0,
+          "unrelated_fa_rate": 0.20833333333333334
+        },
+        {
+          "theta": 0.7626262626262627,
+          "hit_rate": 0.9444444444444444,
+          "lure_fa_rate": 1.0,
+          "unrelated_fa_rate": 0.14166666666666666
+        },
+        {
+          "theta": 0.7676767676767677,
+          "hit_rate": 0.9194444444444444,
+          "lure_fa_rate": 1.0,
+          "unrelated_fa_rate": 0.11666666666666667
+        },
+        {
+          "theta": 0.7727272727272727,
+          "hit_rate": 0.9111111111111111,
+          "lure_fa_rate": 1.0,
+          "unrelated_fa_rate": 0.08333333333333333
+        },
+        {
+          "theta": 0.7777777777777778,
+          "hit_rate": 0.9027777777777778,
+          "lure_fa_rate": 1.0,
+          "unrelated_fa_rate": 0.03333333333333333
+        },
+        {
+          "theta": 0.7828282828282829,
+          "hit_rate": 0.8805555555555555,
+          "lure_fa_rate": 1.0,
+          "unrelated_fa_rate": 0.025
+        },
+        {
+          "theta": 0.7878787878787878,
+          "hit_rate": 0.8611111111111112,
+          "lure_fa_rate": 1.0,
+          "unrelated_fa_rate": 0.016666666666666666
+        },
+        {
+          "theta": 0.7929292929292929,
+          "hit_rate": 0.8166666666666667,
+          "lure_fa_rate": 1.0,
+          "unrelated_fa_rate": 0.008333333333333333
+        },
+        {
+          "theta": 0.797979797979798,
+          "hit_rate": 0.7944444444444444,
+          "lure_fa_rate": 1.0,
+          "unrelated_fa_rate": 0.0
+        },
+        {
+          "theta": 0.803030303030303,
+          "hit_rate": 0.7527777777777778,
+          "lure_fa_rate": 1.0,
+          "unrelated_fa_rate": 0.0
+        },
+        {
+          "theta": 0.8080808080808082,
+          "hit_rate": 0.7111111111111111,
+          "lure_fa_rate": 1.0,
+          "unrelated_fa_rate": 0.0
+        },
+        {
+          "theta": 0.8131313131313131,
+          "hit_rate": 0.6666666666666666,
+          "lure_fa_rate": 1.0,
+          "unrelated_fa_rate": 0.0
+        },
+        {
+          "theta": 0.8181818181818182,
+          "hit_rate": 0.6222222222222222,
+          "lure_fa_rate": 1.0,
+          "unrelated_fa_rate": 0.0
+        },
+        {
+          "theta": 0.8232323232323233,
+          "hit_rate": 0.575,
+          "lure_fa_rate": 1.0,
+          "unrelated_fa_rate": 0.0
+        },
+        {
+          "theta": 0.8282828282828283,
+          "hit_rate": 0.5166666666666667,
+          "lure_fa_rate": 0.9583333333333334,
+          "unrelated_fa_rate": 0.0
+        },
+        {
+          "theta": 0.8333333333333334,
+          "hit_rate": 0.4722222222222222,
+          "lure_fa_rate": 0.9166666666666666,
+          "unrelated_fa_rate": 0.0
+        },
+        {
+          "theta": 0.8383838383838385,
+          "hit_rate": 0.4305555555555556,
+          "lure_fa_rate": 0.7916666666666666,
+          "unrelated_fa_rate": 0.0
+        },
+        {
+          "theta": 0.8434343434343434,
+          "hit_rate": 0.36944444444444446,
+          "lure_fa_rate": 0.7916666666666666,
+          "unrelated_fa_rate": 0.0
+        },
+        {
+          "theta": 0.8484848484848485,
+          "hit_rate": 0.3055555555555556,
+          "lure_fa_rate": 0.75,
+          "unrelated_fa_rate": 0.0
+        },
+        {
+          "theta": 0.8535353535353536,
+          "hit_rate": 0.2638888888888889,
+          "lure_fa_rate": 0.6666666666666666,
+          "unrelated_fa_rate": 0.0
+        },
+        {
+          "theta": 0.8585858585858586,
+          "hit_rate": 0.2111111111111111,
+          "lure_fa_rate": 0.625,
+          "unrelated_fa_rate": 0.0
+        },
+        {
+          "theta": 0.8636363636363636,
+          "hit_rate": 0.16944444444444445,
+          "lure_fa_rate": 0.5833333333333334,
+          "unrelated_fa_rate": 0.0
+        },
+        {
+          "theta": 0.8686868686868687,
+          "hit_rate": 0.125,
+          "lure_fa_rate": 0.4583333333333333,
+          "unrelated_fa_rate": 0.0
+        },
+        {
+          "theta": 0.8737373737373737,
+          "hit_rate": 0.09166666666666666,
+          "lure_fa_rate": 0.375,
+          "unrelated_fa_rate": 0.0
+        },
+        {
+          "theta": 0.8787878787878789,
+          "hit_rate": 0.06111111111111111,
+          "lure_fa_rate": 0.3333333333333333,
+          "unrelated_fa_rate": 0.0
+        },
+        {
+          "theta": 0.8838383838383839,
+          "hit_rate": 0.04722222222222222,
+          "lure_fa_rate": 0.25,
+          "unrelated_fa_rate": 0.0
+        },
+        {
+          "theta": 0.8888888888888888,
+          "hit_rate": 0.027777777777777776,
+          "lure_fa_rate": 0.25,
+          "unrelated_fa_rate": 0.0
+        },
+        {
+          "theta": 0.893939393939394,
+          "hit_rate": 0.011111111111111112,
+          "lure_fa_rate": 0.20833333333333334,
+          "unrelated_fa_rate": 0.0
+        },
+        {
+          "theta": 0.898989898989899,
+          "hit_rate": 0.005555555555555556,
+          "lure_fa_rate": 0.20833333333333334,
+          "unrelated_fa_rate": 0.0
+        },
+        {
+          "theta": 0.9040404040404041,
+          "hit_rate": 0.002777777777777778,
+          "lure_fa_rate": 0.125,
+          "unrelated_fa_rate": 0.0
+        },
+        {
+          "theta": 0.9090909090909092,
+          "hit_rate": 0.002777777777777778,
+          "lure_fa_rate": 0.08333333333333333,
+          "unrelated_fa_rate": 0.0
+        },
+        {
+          "theta": 0.9141414141414141,
+          "hit_rate": 0.0,
+          "lure_fa_rate": 0.041666666666666664,
+          "unrelated_fa_rate": 0.0
+        },
+        {
+          "theta": 0.9191919191919192,
+          "hit_rate": 0.0,
+          "lure_fa_rate": 0.0,
+          "unrelated_fa_rate": 0.0
+        },
+        {
+          "theta": 0.9242424242424243,
+          "hit_rate": 0.0,
+          "lure_fa_rate": 0.0,
+          "unrelated_fa_rate": 0.0
+        },
+        {
+          "theta": 0.9292929292929293,
+          "hit_rate": 0.0,
+          "lure_fa_rate": 0.0,
+          "unrelated_fa_rate": 0.0
+        },
+        {
+          "theta": 0.9343434343434344,
+          "hit_rate": 0.0,
+          "lure_fa_rate": 0.0,
+          "unrelated_fa_rate": 0.0
+        },
+        {
+          "theta": 0.9393939393939394,
+          "hit_rate": 0.0,
+          "lure_fa_rate": 0.0,
+          "unrelated_fa_rate": 0.0
+        },
+        {
+          "theta": 0.9444444444444444,
+          "hit_rate": 0.0,
+          "lure_fa_rate": 0.0,
+          "unrelated_fa_rate": 0.0
+        },
+        {
+          "theta": 0.9494949494949496,
+          "hit_rate": 0.0,
+          "lure_fa_rate": 0.0,
+          "unrelated_fa_rate": 0.0
+        },
+        {
+          "theta": 0.9545454545454546,
+          "hit_rate": 0.0,
+          "lure_fa_rate": 0.0,
+          "unrelated_fa_rate": 0.0
+        },
+        {
+          "theta": 0.9595959595959596,
+          "hit_rate": 0.0,
+          "lure_fa_rate": 0.0,
+          "unrelated_fa_rate": 0.0
+        },
+        {
+          "theta": 0.9646464646464648,
+          "hit_rate": 0.0,
+          "lure_fa_rate": 0.0,
+          "unrelated_fa_rate": 0.0
+        },
+        {
+          "theta": 0.9696969696969697,
+          "hit_rate": 0.0,
+          "lure_fa_rate": 0.0,
+          "unrelated_fa_rate": 0.0
+        },
+        {
+          "theta": 0.9747474747474748,
+          "hit_rate": 0.0,
+          "lure_fa_rate": 0.0,
+          "unrelated_fa_rate": 0.0
+        },
+        {
+          "theta": 0.9797979797979799,
+          "hit_rate": 0.0,
+          "lure_fa_rate": 0.0,
+          "unrelated_fa_rate": 0.0
+        },
+        {
+          "theta": 0.9848484848484849,
+          "hit_rate": 0.0,
+          "lure_fa_rate": 0.0,
+          "unrelated_fa_rate": 0.0
+        },
+        {
+          "theta": 0.98989898989899,
+          "hit_rate": 0.0,
+          "lure_fa_rate": 0.0,
+          "unrelated_fa_rate": 0.0
+        },
+        {
+          "theta": 0.994949494949495,
+          "hit_rate": 0.0,
+          "lure_fa_rate": 0.0,
+          "unrelated_fa_rate": 0.0
+        },
+        {
+          "theta": 1.0,
+          "hit_rate": 0.0,
+          "lure_fa_rate": 0.0,
+          "unrelated_fa_rate": 0.0
+        }
+      ],
+      "overall": {
+        "hit_rate": 0.6055555555555555,
+        "lure_fa_rate": 1.0,
+        "unrelated_fa_rate": 0.0,
+        "threshold": 0.82,
+        "n_lists": 24
+      }
+    },
+    "123": {
+      "seed": 123,
+      "per_list": {
+        "SLEEP": {
+          "studied_mean_sim": 0.8477691769599914,
+          "lure_sim": 0.869317889213562,
+          "unrelated_mean_sim": 0.7029394388198853,
+          "lure_above_082": true,
+          "lure_above_best": true
+        },
+        "NEEDLE": {
+          "studied_mean_sim": 0.8054158131281535,
+          "lure_sim": 0.8753483295440674,
+          "unrelated_mean_sim": 0.7404387354850769,
+          "lure_above_082": true,
+          "lure_above_best": true
+        },
+        "ROUGH": {
+          "studied_mean_sim": 0.8214601119359334,
+          "lure_sim": 0.8580617904663086,
+          "unrelated_mean_sim": 0.7445639610290528,
+          "lure_above_082": true,
+          "lure_above_best": false
+        },
+        "SWEET": {
+          "studied_mean_sim": 0.8451600193977356,
+          "lure_sim": 0.8290784358978271,
+          "unrelated_mean_sim": 0.7368305325508118,
+          "lure_above_082": true,
+          "lure_above_best": false
+        },
+        "CHAIR": {
+          "studied_mean_sim": 0.8400007446606954,
+          "lure_sim": 0.8654493093490601,
+          "unrelated_mean_sim": 0.7387984156608581,
+          "lure_above_082": true,
+          "lure_above_best": true
+        },
+        "WINDOW": {
+          "studied_mean_sim": 0.8132028261820475,
+          "lure_sim": 0.8612492084503174,
+          "unrelated_mean_sim": 0.7528670310974122,
+          "lure_above_082": true,
+          "lure_above_best": false
+        },
+        "SMELL": {
+          "studied_mean_sim": 0.8301159898440044,
+          "lure_sim": 0.9022177457809448,
+          "unrelated_mean_sim": 0.7352857112884521,
+          "lure_above_082": true,
+          "lure_above_best": true
+        },
+        "MOUNTAIN": {
+          "studied_mean_sim": 0.8027871370315551,
+          "lure_sim": 0.8834207653999329,
+          "unrelated_mean_sim": 0.7409024119377137,
+          "lure_above_082": true,
+          "lure_above_best": true
+        },
+        "MUSIC": {
+          "studied_mean_sim": 0.8248344858487447,
+          "lure_sim": 0.8281881809234619,
+          "unrelated_mean_sim": 0.7321822881698609,
+          "lure_above_082": true,
+          "lure_above_best": false
+        },
+        "COLD": {
+          "studied_mean_sim": 0.8574937105178833,
+          "lure_sim": 0.9178606271743774,
+          "unrelated_mean_sim": 0.7437855124473571,
+          "lure_above_082": true,
+          "lure_above_best": true
+        },
+        "ANGER": {
+          "studied_mean_sim": 0.842035706837972,
+          "lure_sim": 0.8923628330230713,
+          "unrelated_mean_sim": 0.7247650384902954,
+          "lure_above_082": true,
+          "lure_above_best": true
+        },
+        "DOCTOR": {
+          "studied_mean_sim": 0.8304252982139587,
+          "lure_sim": 0.905953049659729,
+          "unrelated_mean_sim": 0.7263150811195374,
+          "lure_above_082": true,
+          "lure_above_best": true
+        },
+        "RIVER": {
+          "studied_mean_sim": 0.8241978645324707,
+          "lure_sim": 0.8508210182189941,
+          "unrelated_mean_sim": 0.7436409235000611,
+          "lure_above_082": true,
+          "lure_above_best": false
+        },
+        "FRUIT": {
+          "studied_mean_sim": 0.8414472142855326,
+          "lure_sim": 0.9015421271324158,
+          "unrelated_mean_sim": 0.7233386397361755,
+          "lure_above_082": true,
+          "lure_above_best": true
+        },
+        "BLACK": {
+          "studied_mean_sim": 0.8345003525416056,
+          "lure_sim": 0.8684026598930359,
+          "unrelated_mean_sim": 0.7651412963867188,
+          "lure_above_082": true,
+          "lure_above_best": true
+        },
+        "KING": {
+          "studied_mean_sim": 0.8202660282452902,
+          "lure_sim": 0.8339534997940063,
+          "unrelated_mean_sim": 0.7351897358894348,
+          "lure_above_082": true,
+          "lure_above_best": false
+        },
+        "BREAD": {
+          "studied_mean_sim": 0.849971063931783,
+          "lure_sim": 0.911693811416626,
+          "unrelated_mean_sim": 0.7380501866340637,
+          "lure_above_082": true,
+          "lure_above_best": true
+        },
+        "SPIDER": {
+          "studied_mean_sim": 0.8114460110664368,
+          "lure_sim": 0.8363228440284729,
+          "unrelated_mean_sim": 0.74840087890625,
+          "lure_above_082": true,
+          "lure_above_best": false
+        },
+        "SLOW": {
+          "studied_mean_sim": 0.8114745497703553,
+          "lure_sim": 0.8834695816040039,
+          "unrelated_mean_sim": 0.7609582066535949,
+          "lure_above_082": true,
+          "lure_above_best": true
+        },
+        "MAN": {
+          "studied_mean_sim": 0.8302917957305909,
+          "lure_sim": 0.8499025702476501,
+          "unrelated_mean_sim": 0.7439276099205017,
+          "lure_above_082": true,
+          "lure_above_best": false
+        },
+        "SOFT": {
+          "studied_mean_sim": 0.8311915755271911,
+          "lure_sim": 0.8726128935813904,
+          "unrelated_mean_sim": 0.7682651400566101,
+          "lure_above_082": true,
+          "lure_above_best": true
+        },
+        "THIEF": {
+          "studied_mean_sim": 0.8232764442761739,
+          "lure_sim": 0.8644372224807739,
+          "unrelated_mean_sim": 0.7222109198570251,
+          "lure_above_082": true,
+          "lure_above_best": true
+        },
+        "HIGH": {
+          "studied_mean_sim": 0.8110799948374431,
+          "lure_sim": 0.8344013094902039,
+          "unrelated_mean_sim": 0.7584282279014587,
+          "lure_above_082": true,
+          "lure_above_best": false
+        },
+        "LION": {
+          "studied_mean_sim": 0.8054065227508544,
+          "lure_sim": 0.8468685150146484,
+          "unrelated_mean_sim": 0.7404550194740296,
+          "lure_above_082": true,
+          "lure_above_best": false
+        }
+      },
+      "at_theta_082": {
+        "theta": 0.82,
+        "hit_rate": 0.6055555555555555,
+        "lure_fa_rate": 1.0,
+        "unrelated_fa_rate": 0.0
+      },
+      "best_match": {
+        "theta": 0.8636363636363636,
+        "hit_rate": 0.16944444444444445,
+        "lure_fa_rate": 0.5833333333333334,
+        "unrelated_fa_rate": 0.0
+      },
+      "operating_curve": [
+        {
+          "theta": 0.5,
+          "hit_rate": 1.0,
+          "lure_fa_rate": 1.0,
+          "unrelated_fa_rate": 1.0
+        },
+        {
+          "theta": 0.5050505050505051,
+          "hit_rate": 1.0,
+          "lure_fa_rate": 1.0,
+          "unrelated_fa_rate": 1.0
+        },
+        {
+          "theta": 0.51010101010101,
+          "hit_rate": 1.0,
+          "lure_fa_rate": 1.0,
+          "unrelated_fa_rate": 1.0
+        },
+        {
+          "theta": 0.5151515151515151,
+          "hit_rate": 1.0,
+          "lure_fa_rate": 1.0,
+          "unrelated_fa_rate": 1.0
+        },
+        {
+          "theta": 0.5202020202020202,
+          "hit_rate": 1.0,
+          "lure_fa_rate": 1.0,
+          "unrelated_fa_rate": 1.0
+        },
+        {
+          "theta": 0.5252525252525253,
+          "hit_rate": 1.0,
+          "lure_fa_rate": 1.0,
+          "unrelated_fa_rate": 1.0
+        },
+        {
+          "theta": 0.5303030303030303,
+          "hit_rate": 1.0,
+          "lure_fa_rate": 1.0,
+          "unrelated_fa_rate": 1.0
+        },
+        {
+          "theta": 0.5353535353535354,
+          "hit_rate": 1.0,
+          "lure_fa_rate": 1.0,
+          "unrelated_fa_rate": 1.0
+        },
+        {
+          "theta": 0.5404040404040404,
+          "hit_rate": 1.0,
+          "lure_fa_rate": 1.0,
+          "unrelated_fa_rate": 1.0
+        },
+        {
+          "theta": 0.5454545454545454,
+          "hit_rate": 1.0,
+          "lure_fa_rate": 1.0,
+          "unrelated_fa_rate": 1.0
+        },
+        {
+          "theta": 0.5505050505050505,
+          "hit_rate": 1.0,
+          "lure_fa_rate": 1.0,
+          "unrelated_fa_rate": 1.0
+        },
+        {
+          "theta": 0.5555555555555556,
+          "hit_rate": 1.0,
+          "lure_fa_rate": 1.0,
+          "unrelated_fa_rate": 1.0
+        },
+        {
+          "theta": 0.5606060606060606,
+          "hit_rate": 1.0,
+          "lure_fa_rate": 1.0,
+          "unrelated_fa_rate": 1.0
+        },
+        {
+          "theta": 0.5656565656565656,
+          "hit_rate": 1.0,
+          "lure_fa_rate": 1.0,
+          "unrelated_fa_rate": 1.0
+        },
+        {
+          "theta": 0.5707070707070707,
+          "hit_rate": 1.0,
+          "lure_fa_rate": 1.0,
+          "unrelated_fa_rate": 1.0
+        },
+        {
+          "theta": 0.5757575757575758,
+          "hit_rate": 1.0,
+          "lure_fa_rate": 1.0,
+          "unrelated_fa_rate": 1.0
+        },
+        {
+          "theta": 0.5808080808080808,
+          "hit_rate": 1.0,
+          "lure_fa_rate": 1.0,
+          "unrelated_fa_rate": 1.0
+        },
+        {
+          "theta": 0.5858585858585859,
+          "hit_rate": 1.0,
+          "lure_fa_rate": 1.0,
+          "unrelated_fa_rate": 1.0
+        },
+        {
+          "theta": 0.5909090909090909,
+          "hit_rate": 1.0,
+          "lure_fa_rate": 1.0,
+          "unrelated_fa_rate": 1.0
+        },
+        {
+          "theta": 0.595959595959596,
+          "hit_rate": 1.0,
+          "lure_fa_rate": 1.0,
+          "unrelated_fa_rate": 1.0
+        },
+        {
+          "theta": 0.601010101010101,
+          "hit_rate": 1.0,
+          "lure_fa_rate": 1.0,
+          "unrelated_fa_rate": 1.0
+        },
+        {
+          "theta": 0.6060606060606061,
+          "hit_rate": 1.0,
+          "lure_fa_rate": 1.0,
+          "unrelated_fa_rate": 1.0
+        },
+        {
+          "theta": 0.6111111111111112,
+          "hit_rate": 1.0,
+          "lure_fa_rate": 1.0,
+          "unrelated_fa_rate": 1.0
+        },
+        {
+          "theta": 0.6161616161616161,
+          "hit_rate": 1.0,
+          "lure_fa_rate": 1.0,
+          "unrelated_fa_rate": 1.0
+        },
+        {
+          "theta": 0.6212121212121212,
+          "hit_rate": 1.0,
+          "lure_fa_rate": 1.0,
+          "unrelated_fa_rate": 1.0
+        },
+        {
+          "theta": 0.6262626262626263,
+          "hit_rate": 1.0,
+          "lure_fa_rate": 1.0,
+          "unrelated_fa_rate": 1.0
+        },
+        {
+          "theta": 0.6313131313131313,
+          "hit_rate": 1.0,
+          "lure_fa_rate": 1.0,
+          "unrelated_fa_rate": 1.0
+        },
+        {
+          "theta": 0.6363636363636364,
+          "hit_rate": 1.0,
+          "lure_fa_rate": 1.0,
+          "unrelated_fa_rate": 1.0
+        },
+        {
+          "theta": 0.6414141414141414,
+          "hit_rate": 1.0,
+          "lure_fa_rate": 1.0,
+          "unrelated_fa_rate": 1.0
+        },
+        {
+          "theta": 0.6464646464646464,
+          "hit_rate": 1.0,
+          "lure_fa_rate": 1.0,
+          "unrelated_fa_rate": 1.0
+        },
+        {
+          "theta": 0.6515151515151515,
+          "hit_rate": 1.0,
+          "lure_fa_rate": 1.0,
+          "unrelated_fa_rate": 1.0
+        },
+        {
+          "theta": 0.6565656565656566,
+          "hit_rate": 1.0,
+          "lure_fa_rate": 1.0,
+          "unrelated_fa_rate": 1.0
+        },
+        {
+          "theta": 0.6616161616161617,
+          "hit_rate": 1.0,
+          "lure_fa_rate": 1.0,
+          "unrelated_fa_rate": 0.9916666666666667
+        },
+        {
+          "theta": 0.6666666666666667,
+          "hit_rate": 1.0,
+          "lure_fa_rate": 1.0,
+          "unrelated_fa_rate": 0.9916666666666667
+        },
+        {
+          "theta": 0.6717171717171717,
+          "hit_rate": 1.0,
+          "lure_fa_rate": 1.0,
+          "unrelated_fa_rate": 0.9916666666666667
+        },
+        {
+          "theta": 0.6767676767676768,
+          "hit_rate": 1.0,
+          "lure_fa_rate": 1.0,
+          "unrelated_fa_rate": 0.9916666666666667
+        },
+        {
+          "theta": 0.6818181818181819,
+          "hit_rate": 1.0,
+          "lure_fa_rate": 1.0,
+          "unrelated_fa_rate": 0.9916666666666667
+        },
+        {
+          "theta": 0.6868686868686869,
+          "hit_rate": 1.0,
+          "lure_fa_rate": 1.0,
+          "unrelated_fa_rate": 0.9916666666666667
+        },
+        {
+          "theta": 0.6919191919191919,
+          "hit_rate": 1.0,
+          "lure_fa_rate": 1.0,
+          "unrelated_fa_rate": 0.9833333333333333
+        },
+        {
+          "theta": 0.696969696969697,
+          "hit_rate": 1.0,
+          "lure_fa_rate": 1.0,
+          "unrelated_fa_rate": 0.975
+        },
+        {
+          "theta": 0.702020202020202,
+          "hit_rate": 1.0,
+          "lure_fa_rate": 1.0,
+          "unrelated_fa_rate": 0.95
+        },
+        {
+          "theta": 0.7070707070707071,
+          "hit_rate": 1.0,
+          "lure_fa_rate": 1.0,
+          "unrelated_fa_rate": 0.9333333333333333
+        },
+        {
+          "theta": 0.7121212121212122,
+          "hit_rate": 1.0,
+          "lure_fa_rate": 1.0,
+          "unrelated_fa_rate": 0.9
+        },
+        {
+          "theta": 0.7171717171717171,
+          "hit_rate": 1.0,
+          "lure_fa_rate": 1.0,
+          "unrelated_fa_rate": 0.8583333333333333
+        },
+        {
+          "theta": 0.7222222222222222,
+          "hit_rate": 1.0,
+          "lure_fa_rate": 1.0,
+          "unrelated_fa_rate": 0.7916666666666666
+        },
+        {
+          "theta": 0.7272727272727273,
+          "hit_rate": 0.9972222222222222,
+          "lure_fa_rate": 1.0,
+          "unrelated_fa_rate": 0.7416666666666667
+        },
+        {
+          "theta": 0.7323232323232324,
+          "hit_rate": 0.9888888888888889,
+          "lure_fa_rate": 1.0,
+          "unrelated_fa_rate": 0.675
+        },
+        {
+          "theta": 0.7373737373737375,
+          "hit_rate": 0.9833333333333333,
+          "lure_fa_rate": 1.0,
+          "unrelated_fa_rate": 0.5583333333333333
+        },
+        {
+          "theta": 0.7424242424242424,
+          "hit_rate": 0.975,
+          "lure_fa_rate": 1.0,
+          "unrelated_fa_rate": 0.4583333333333333
+        },
+        {
+          "theta": 0.7474747474747475,
+          "hit_rate": 0.9694444444444444,
+          "lure_fa_rate": 1.0,
+          "unrelated_fa_rate": 0.375
+        },
+        {
+          "theta": 0.7525252525252526,
+          "hit_rate": 0.9694444444444444,
+          "lure_fa_rate": 1.0,
+          "unrelated_fa_rate": 0.3
+        },
+        {
+          "theta": 0.7575757575757576,
+          "hit_rate": 0.9527777777777777,
+          "lure_fa_rate": 1.0,
+          "unrelated_fa_rate": 0.20833333333333334
+        },
+        {
+          "theta": 0.7626262626262627,
+          "hit_rate": 0.9444444444444444,
+          "lure_fa_rate": 1.0,
+          "unrelated_fa_rate": 0.14166666666666666
+        },
+        {
+          "theta": 0.7676767676767677,
+          "hit_rate": 0.9194444444444444,
+          "lure_fa_rate": 1.0,
+          "unrelated_fa_rate": 0.11666666666666667
+        },
+        {
+          "theta": 0.7727272727272727,
+          "hit_rate": 0.9111111111111111,
+          "lure_fa_rate": 1.0,
+          "unrelated_fa_rate": 0.08333333333333333
+        },
+        {
+          "theta": 0.7777777777777778,
+          "hit_rate": 0.9027777777777778,
+          "lure_fa_rate": 1.0,
+          "unrelated_fa_rate": 0.03333333333333333
+        },
+        {
+          "theta": 0.7828282828282829,
+          "hit_rate": 0.8805555555555555,
+          "lure_fa_rate": 1.0,
+          "unrelated_fa_rate": 0.025
+        },
+        {
+          "theta": 0.7878787878787878,
+          "hit_rate": 0.8611111111111112,
+          "lure_fa_rate": 1.0,
+          "unrelated_fa_rate": 0.016666666666666666
+        },
+        {
+          "theta": 0.7929292929292929,
+          "hit_rate": 0.8166666666666667,
+          "lure_fa_rate": 1.0,
+          "unrelated_fa_rate": 0.008333333333333333
+        },
+        {
+          "theta": 0.797979797979798,
+          "hit_rate": 0.7944444444444444,
+          "lure_fa_rate": 1.0,
+          "unrelated_fa_rate": 0.0
+        },
+        {
+          "theta": 0.803030303030303,
+          "hit_rate": 0.7527777777777778,
+          "lure_fa_rate": 1.0,
+          "unrelated_fa_rate": 0.0
+        },
+        {
+          "theta": 0.8080808080808082,
+          "hit_rate": 0.7111111111111111,
+          "lure_fa_rate": 1.0,
+          "unrelated_fa_rate": 0.0
+        },
+        {
+          "theta": 0.8131313131313131,
+          "hit_rate": 0.6666666666666666,
+          "lure_fa_rate": 1.0,
+          "unrelated_fa_rate": 0.0
+        },
+        {
+          "theta": 0.8181818181818182,
+          "hit_rate": 0.6222222222222222,
+          "lure_fa_rate": 1.0,
+          "unrelated_fa_rate": 0.0
+        },
+        {
+          "theta": 0.8232323232323233,
+          "hit_rate": 0.575,
+          "lure_fa_rate": 1.0,
+          "unrelated_fa_rate": 0.0
+        },
+        {
+          "theta": 0.8282828282828283,
+          "hit_rate": 0.5166666666666667,
+          "lure_fa_rate": 0.9583333333333334,
+          "unrelated_fa_rate": 0.0
+        },
+        {
+          "theta": 0.8333333333333334,
+          "hit_rate": 0.4722222222222222,
+          "lure_fa_rate": 0.9166666666666666,
+          "unrelated_fa_rate": 0.0
+        },
+        {
+          "theta": 0.8383838383838385,
+          "hit_rate": 0.4305555555555556,
+          "lure_fa_rate": 0.7916666666666666,
+          "unrelated_fa_rate": 0.0
+        },
+        {
+          "theta": 0.8434343434343434,
+          "hit_rate": 0.36944444444444446,
+          "lure_fa_rate": 0.7916666666666666,
+          "unrelated_fa_rate": 0.0
+        },
+        {
+          "theta": 0.8484848484848485,
+          "hit_rate": 0.3055555555555556,
+          "lure_fa_rate": 0.75,
+          "unrelated_fa_rate": 0.0
+        },
+        {
+          "theta": 0.8535353535353536,
+          "hit_rate": 0.2638888888888889,
+          "lure_fa_rate": 0.6666666666666666,
+          "unrelated_fa_rate": 0.0
+        },
+        {
+          "theta": 0.8585858585858586,
+          "hit_rate": 0.2111111111111111,
+          "lure_fa_rate": 0.625,
+          "unrelated_fa_rate": 0.0
+        },
+        {
+          "theta": 0.8636363636363636,
+          "hit_rate": 0.16944444444444445,
+          "lure_fa_rate": 0.5833333333333334,
+          "unrelated_fa_rate": 0.0
+        },
+        {
+          "theta": 0.8686868686868687,
+          "hit_rate": 0.125,
+          "lure_fa_rate": 0.4583333333333333,
+          "unrelated_fa_rate": 0.0
+        },
+        {
+          "theta": 0.8737373737373737,
+          "hit_rate": 0.09166666666666666,
+          "lure_fa_rate": 0.375,
+          "unrelated_fa_rate": 0.0
+        },
+        {
+          "theta": 0.8787878787878789,
+          "hit_rate": 0.06111111111111111,
+          "lure_fa_rate": 0.3333333333333333,
+          "unrelated_fa_rate": 0.0
+        },
+        {
+          "theta": 0.8838383838383839,
+          "hit_rate": 0.04722222222222222,
+          "lure_fa_rate": 0.25,
+          "unrelated_fa_rate": 0.0
+        },
+        {
+          "theta": 0.8888888888888888,
+          "hit_rate": 0.027777777777777776,
+          "lure_fa_rate": 0.25,
+          "unrelated_fa_rate": 0.0
+        },
+        {
+          "theta": 0.893939393939394,
+          "hit_rate": 0.011111111111111112,
+          "lure_fa_rate": 0.20833333333333334,
+          "unrelated_fa_rate": 0.0
+        },
+        {
+          "theta": 0.898989898989899,
+          "hit_rate": 0.005555555555555556,
+          "lure_fa_rate": 0.20833333333333334,
+          "unrelated_fa_rate": 0.0
+        },
+        {
+          "theta": 0.9040404040404041,
+          "hit_rate": 0.002777777777777778,
+          "lure_fa_rate": 0.125,
+          "unrelated_fa_rate": 0.0
+        },
+        {
+          "theta": 0.9090909090909092,
+          "hit_rate": 0.002777777777777778,
+          "lure_fa_rate": 0.08333333333333333,
+          "unrelated_fa_rate": 0.0
+        },
+        {
+          "theta": 0.9141414141414141,
+          "hit_rate": 0.0,
+          "lure_fa_rate": 0.041666666666666664,
+          "unrelated_fa_rate": 0.0
+        },
+        {
+          "theta": 0.9191919191919192,
+          "hit_rate": 0.0,
+          "lure_fa_rate": 0.0,
+          "unrelated_fa_rate": 0.0
+        },
+        {
+          "theta": 0.9242424242424243,
+          "hit_rate": 0.0,
+          "lure_fa_rate": 0.0,
+          "unrelated_fa_rate": 0.0
+        },
+        {
+          "theta": 0.9292929292929293,
+          "hit_rate": 0.0,
+          "lure_fa_rate": 0.0,
+          "unrelated_fa_rate": 0.0
+        },
+        {
+          "theta": 0.9343434343434344,
+          "hit_rate": 0.0,
+          "lure_fa_rate": 0.0,
+          "unrelated_fa_rate": 0.0
+        },
+        {
+          "theta": 0.9393939393939394,
+          "hit_rate": 0.0,
+          "lure_fa_rate": 0.0,
+          "unrelated_fa_rate": 0.0
+        },
+        {
+          "theta": 0.9444444444444444,
+          "hit_rate": 0.0,
+          "lure_fa_rate": 0.0,
+          "unrelated_fa_rate": 0.0
+        },
+        {
+          "theta": 0.9494949494949496,
+          "hit_rate": 0.0,
+          "lure_fa_rate": 0.0,
+          "unrelated_fa_rate": 0.0
+        },
+        {
+          "theta": 0.9545454545454546,
+          "hit_rate": 0.0,
+          "lure_fa_rate": 0.0,
+          "unrelated_fa_rate": 0.0
+        },
+        {
+          "theta": 0.9595959595959596,
+          "hit_rate": 0.0,
+          "lure_fa_rate": 0.0,
+          "unrelated_fa_rate": 0.0
+        },
+        {
+          "theta": 0.9646464646464648,
+          "hit_rate": 0.0,
+          "lure_fa_rate": 0.0,
+          "unrelated_fa_rate": 0.0
+        },
+        {
+          "theta": 0.9696969696969697,
+          "hit_rate": 0.0,
+          "lure_fa_rate": 0.0,
+          "unrelated_fa_rate": 0.0
+        },
+        {
+          "theta": 0.9747474747474748,
+          "hit_rate": 0.0,
+          "lure_fa_rate": 0.0,
+          "unrelated_fa_rate": 0.0
+        },
+        {
+          "theta": 0.9797979797979799,
+          "hit_rate": 0.0,
+          "lure_fa_rate": 0.0,
+          "unrelated_fa_rate": 0.0
+        },
+        {
+          "theta": 0.9848484848484849,
+          "hit_rate": 0.0,
+          "lure_fa_rate": 0.0,
+          "unrelated_fa_rate": 0.0
+        },
+        {
+          "theta": 0.98989898989899,
+          "hit_rate": 0.0,
+          "lure_fa_rate": 0.0,
+          "unrelated_fa_rate": 0.0
+        },
+        {
+          "theta": 0.994949494949495,
+          "hit_rate": 0.0,
+          "lure_fa_rate": 0.0,
+          "unrelated_fa_rate": 0.0
+        },
+        {
+          "theta": 1.0,
+          "hit_rate": 0.0,
+          "lure_fa_rate": 0.0,
+          "unrelated_fa_rate": 0.0
+        }
+      ],
+      "overall": {
+        "hit_rate": 0.6055555555555555,
+        "lure_fa_rate": 1.0,
+        "unrelated_fa_rate": 0.0,
+        "threshold": 0.82,
+        "n_lists": 24
+      }
+    },
+    "456": {
+      "seed": 456,
+      "per_list": {
+        "SLEEP": {
+          "studied_mean_sim": 0.8477691769599914,
+          "lure_sim": 0.869317889213562,
+          "unrelated_mean_sim": 0.7029394388198853,
+          "lure_above_082": true,
+          "lure_above_best": true
+        },
+        "NEEDLE": {
+          "studied_mean_sim": 0.8054158131281535,
+          "lure_sim": 0.8753483295440674,
+          "unrelated_mean_sim": 0.7404387354850769,
+          "lure_above_082": true,
+          "lure_above_best": true
+        },
+        "ROUGH": {
+          "studied_mean_sim": 0.8214601119359334,
+          "lure_sim": 0.8580617904663086,
+          "unrelated_mean_sim": 0.7445639610290528,
+          "lure_above_082": true,
+          "lure_above_best": false
+        },
+        "SWEET": {
+          "studied_mean_sim": 0.8451600193977356,
+          "lure_sim": 0.8290784358978271,
+          "unrelated_mean_sim": 0.7368305325508118,
+          "lure_above_082": true,
+          "lure_above_best": false
+        },
+        "CHAIR": {
+          "studied_mean_sim": 0.8400007446606954,
+          "lure_sim": 0.8654493093490601,
+          "unrelated_mean_sim": 0.7387984156608581,
+          "lure_above_082": true,
+          "lure_above_best": true
+        },
+        "WINDOW": {
+          "studied_mean_sim": 0.8132028261820475,
+          "lure_sim": 0.8612492084503174,
+          "unrelated_mean_sim": 0.7528670310974122,
+          "lure_above_082": true,
+          "lure_above_best": false
+        },
+        "SMELL": {
+          "studied_mean_sim": 0.8301159898440044,
+          "lure_sim": 0.9022177457809448,
+          "unrelated_mean_sim": 0.7352857112884521,
+          "lure_above_082": true,
+          "lure_above_best": true
+        },
+        "MOUNTAIN": {
+          "studied_mean_sim": 0.8027871370315551,
+          "lure_sim": 0.8834207653999329,
+          "unrelated_mean_sim": 0.7409024119377137,
+          "lure_above_082": true,
+          "lure_above_best": true
+        },
+        "MUSIC": {
+          "studied_mean_sim": 0.8248344858487447,
+          "lure_sim": 0.8281881809234619,
+          "unrelated_mean_sim": 0.7321822881698609,
+          "lure_above_082": true,
+          "lure_above_best": false
+        },
+        "COLD": {
+          "studied_mean_sim": 0.8574937105178833,
+          "lure_sim": 0.9178606271743774,
+          "unrelated_mean_sim": 0.7437855124473571,
+          "lure_above_082": true,
+          "lure_above_best": true
+        },
+        "ANGER": {
+          "studied_mean_sim": 0.842035706837972,
+          "lure_sim": 0.8923628330230713,
+          "unrelated_mean_sim": 0.7247650384902954,
+          "lure_above_082": true,
+          "lure_above_best": true
+        },
+        "DOCTOR": {
+          "studied_mean_sim": 0.8304252982139587,
+          "lure_sim": 0.905953049659729,
+          "unrelated_mean_sim": 0.7263150811195374,
+          "lure_above_082": true,
+          "lure_above_best": true
+        },
+        "RIVER": {
+          "studied_mean_sim": 0.8241978645324707,
+          "lure_sim": 0.8508210182189941,
+          "unrelated_mean_sim": 0.7436409235000611,
+          "lure_above_082": true,
+          "lure_above_best": false
+        },
+        "FRUIT": {
+          "studied_mean_sim": 0.8414472142855326,
+          "lure_sim": 0.9015421271324158,
+          "unrelated_mean_sim": 0.7233386397361755,
+          "lure_above_082": true,
+          "lure_above_best": true
+        },
+        "BLACK": {
+          "studied_mean_sim": 0.8345003525416056,
+          "lure_sim": 0.8684026598930359,
+          "unrelated_mean_sim": 0.7651412963867188,
+          "lure_above_082": true,
+          "lure_above_best": true
+        },
+        "KING": {
+          "studied_mean_sim": 0.8202660282452902,
+          "lure_sim": 0.8339534997940063,
+          "unrelated_mean_sim": 0.7351897358894348,
+          "lure_above_082": true,
+          "lure_above_best": false
+        },
+        "BREAD": {
+          "studied_mean_sim": 0.849971063931783,
+          "lure_sim": 0.911693811416626,
+          "unrelated_mean_sim": 0.7380501866340637,
+          "lure_above_082": true,
+          "lure_above_best": true
+        },
+        "SPIDER": {
+          "studied_mean_sim": 0.8114460110664368,
+          "lure_sim": 0.8363228440284729,
+          "unrelated_mean_sim": 0.74840087890625,
+          "lure_above_082": true,
+          "lure_above_best": false
+        },
+        "SLOW": {
+          "studied_mean_sim": 0.8114745497703553,
+          "lure_sim": 0.8834695816040039,
+          "unrelated_mean_sim": 0.7609582066535949,
+          "lure_above_082": true,
+          "lure_above_best": true
+        },
+        "MAN": {
+          "studied_mean_sim": 0.8302917957305909,
+          "lure_sim": 0.8499025702476501,
+          "unrelated_mean_sim": 0.7439276099205017,
+          "lure_above_082": true,
+          "lure_above_best": false
+        },
+        "SOFT": {
+          "studied_mean_sim": 0.8311915755271911,
+          "lure_sim": 0.8726128935813904,
+          "unrelated_mean_sim": 0.7682651400566101,
+          "lure_above_082": true,
+          "lure_above_best": true
+        },
+        "THIEF": {
+          "studied_mean_sim": 0.8232764442761739,
+          "lure_sim": 0.8644372224807739,
+          "unrelated_mean_sim": 0.7222109198570251,
+          "lure_above_082": true,
+          "lure_above_best": true
+        },
+        "HIGH": {
+          "studied_mean_sim": 0.8110799948374431,
+          "lure_sim": 0.8344013094902039,
+          "unrelated_mean_sim": 0.7584282279014587,
+          "lure_above_082": true,
+          "lure_above_best": false
+        },
+        "LION": {
+          "studied_mean_sim": 0.8054065227508544,
+          "lure_sim": 0.8468685150146484,
+          "unrelated_mean_sim": 0.7404550194740296,
+          "lure_above_082": true,
+          "lure_above_best": false
+        }
+      },
+      "at_theta_082": {
+        "theta": 0.82,
+        "hit_rate": 0.6055555555555555,
+        "lure_fa_rate": 1.0,
+        "unrelated_fa_rate": 0.0
+      },
+      "best_match": {
+        "theta": 0.8636363636363636,
+        "hit_rate": 0.16944444444444445,
+        "lure_fa_rate": 0.5833333333333334,
+        "unrelated_fa_rate": 0.0
+      },
+      "operating_curve": [
+        {
+          "theta": 0.5,
+          "hit_rate": 1.0,
+          "lure_fa_rate": 1.0,
+          "unrelated_fa_rate": 1.0
+        },
+        {
+          "theta": 0.5050505050505051,
+          "hit_rate": 1.0,
+          "lure_fa_rate": 1.0,
+          "unrelated_fa_rate": 1.0
+        },
+        {
+          "theta": 0.51010101010101,
+          "hit_rate": 1.0,
+          "lure_fa_rate": 1.0,
+          "unrelated_fa_rate": 1.0
+        },
+        {
+          "theta": 0.5151515151515151,
+          "hit_rate": 1.0,
+          "lure_fa_rate": 1.0,
+          "unrelated_fa_rate": 1.0
+        },
+        {
+          "theta": 0.5202020202020202,
+          "hit_rate": 1.0,
+          "lure_fa_rate": 1.0,
+          "unrelated_fa_rate": 1.0
+        },
+        {
+          "theta": 0.5252525252525253,
+          "hit_rate": 1.0,
+          "lure_fa_rate": 1.0,
+          "unrelated_fa_rate": 1.0
+        },
+        {
+          "theta": 0.5303030303030303,
+          "hit_rate": 1.0,
+          "lure_fa_rate": 1.0,
+          "unrelated_fa_rate": 1.0
+        },
+        {
+          "theta": 0.5353535353535354,
+          "hit_rate": 1.0,
+          "lure_fa_rate": 1.0,
+          "unrelated_fa_rate": 1.0
+        },
+        {
+          "theta": 0.5404040404040404,
+          "hit_rate": 1.0,
+          "lure_fa_rate": 1.0,
+          "unrelated_fa_rate": 1.0
+        },
+        {
+          "theta": 0.5454545454545454,
+          "hit_rate": 1.0,
+          "lure_fa_rate": 1.0,
+          "unrelated_fa_rate": 1.0
+        },
+        {
+          "theta": 0.5505050505050505,
+          "hit_rate": 1.0,
+          "lure_fa_rate": 1.0,
+          "unrelated_fa_rate": 1.0
+        },
+        {
+          "theta": 0.5555555555555556,
+          "hit_rate": 1.0,
+          "lure_fa_rate": 1.0,
+          "unrelated_fa_rate": 1.0
+        },
+        {
+          "theta": 0.5606060606060606,
+          "hit_rate": 1.0,
+          "lure_fa_rate": 1.0,
+          "unrelated_fa_rate": 1.0
+        },
+        {
+          "theta": 0.5656565656565656,
+          "hit_rate": 1.0,
+          "lure_fa_rate": 1.0,
+          "unrelated_fa_rate": 1.0
+        },
+        {
+          "theta": 0.5707070707070707,
+          "hit_rate": 1.0,
+          "lure_fa_rate": 1.0,
+          "unrelated_fa_rate": 1.0
+        },
+        {
+          "theta": 0.5757575757575758,
+          "hit_rate": 1.0,
+          "lure_fa_rate": 1.0,
+          "unrelated_fa_rate": 1.0
+        },
+        {
+          "theta": 0.5808080808080808,
+          "hit_rate": 1.0,
+          "lure_fa_rate": 1.0,
+          "unrelated_fa_rate": 1.0
+        },
+        {
+          "theta": 0.5858585858585859,
+          "hit_rate": 1.0,
+          "lure_fa_rate": 1.0,
+          "unrelated_fa_rate": 1.0
+        },
+        {
+          "theta": 0.5909090909090909,
+          "hit_rate": 1.0,
+          "lure_fa_rate": 1.0,
+          "unrelated_fa_rate": 1.0
+        },
+        {
+          "theta": 0.595959595959596,
+          "hit_rate": 1.0,
+          "lure_fa_rate": 1.0,
+          "unrelated_fa_rate": 1.0
+        },
+        {
+          "theta": 0.601010101010101,
+          "hit_rate": 1.0,
+          "lure_fa_rate": 1.0,
+          "unrelated_fa_rate": 1.0
+        },
+        {
+          "theta": 0.6060606060606061,
+          "hit_rate": 1.0,
+          "lure_fa_rate": 1.0,
+          "unrelated_fa_rate": 1.0
+        },
+        {
+          "theta": 0.6111111111111112,
+          "hit_rate": 1.0,
+          "lure_fa_rate": 1.0,
+          "unrelated_fa_rate": 1.0
+        },
+        {
+          "theta": 0.6161616161616161,
+          "hit_rate": 1.0,
+          "lure_fa_rate": 1.0,
+          "unrelated_fa_rate": 1.0
+        },
+        {
+          "theta": 0.6212121212121212,
+          "hit_rate": 1.0,
+          "lure_fa_rate": 1.0,
+          "unrelated_fa_rate": 1.0
+        },
+        {
+          "theta": 0.6262626262626263,
+          "hit_rate": 1.0,
+          "lure_fa_rate": 1.0,
+          "unrelated_fa_rate": 1.0
+        },
+        {
+          "theta": 0.6313131313131313,
+          "hit_rate": 1.0,
+          "lure_fa_rate": 1.0,
+          "unrelated_fa_rate": 1.0
+        },
+        {
+          "theta": 0.6363636363636364,
+          "hit_rate": 1.0,
+          "lure_fa_rate": 1.0,
+          "unrelated_fa_rate": 1.0
+        },
+        {
+          "theta": 0.6414141414141414,
+          "hit_rate": 1.0,
+          "lure_fa_rate": 1.0,
+          "unrelated_fa_rate": 1.0
+        },
+        {
+          "theta": 0.6464646464646464,
+          "hit_rate": 1.0,
+          "lure_fa_rate": 1.0,
+          "unrelated_fa_rate": 1.0
+        },
+        {
+          "theta": 0.6515151515151515,
+          "hit_rate": 1.0,
+          "lure_fa_rate": 1.0,
+          "unrelated_fa_rate": 1.0
+        },
+        {
+          "theta": 0.6565656565656566,
+          "hit_rate": 1.0,
+          "lure_fa_rate": 1.0,
+          "unrelated_fa_rate": 1.0
+        },
+        {
+          "theta": 0.6616161616161617,
+          "hit_rate": 1.0,
+          "lure_fa_rate": 1.0,
+          "unrelated_fa_rate": 0.9916666666666667
+        },
+        {
+          "theta": 0.6666666666666667,
+          "hit_rate": 1.0,
+          "lure_fa_rate": 1.0,
+          "unrelated_fa_rate": 0.9916666666666667
+        },
+        {
+          "theta": 0.6717171717171717,
+          "hit_rate": 1.0,
+          "lure_fa_rate": 1.0,
+          "unrelated_fa_rate": 0.9916666666666667
+        },
+        {
+          "theta": 0.6767676767676768,
+          "hit_rate": 1.0,
+          "lure_fa_rate": 1.0,
+          "unrelated_fa_rate": 0.9916666666666667
+        },
+        {
+          "theta": 0.6818181818181819,
+          "hit_rate": 1.0,
+          "lure_fa_rate": 1.0,
+          "unrelated_fa_rate": 0.9916666666666667
+        },
+        {
+          "theta": 0.6868686868686869,
+          "hit_rate": 1.0,
+          "lure_fa_rate": 1.0,
+          "unrelated_fa_rate": 0.9916666666666667
+        },
+        {
+          "theta": 0.6919191919191919,
+          "hit_rate": 1.0,
+          "lure_fa_rate": 1.0,
+          "unrelated_fa_rate": 0.9833333333333333
+        },
+        {
+          "theta": 0.696969696969697,
+          "hit_rate": 1.0,
+          "lure_fa_rate": 1.0,
+          "unrelated_fa_rate": 0.975
+        },
+        {
+          "theta": 0.702020202020202,
+          "hit_rate": 1.0,
+          "lure_fa_rate": 1.0,
+          "unrelated_fa_rate": 0.95
+        },
+        {
+          "theta": 0.7070707070707071,
+          "hit_rate": 1.0,
+          "lure_fa_rate": 1.0,
+          "unrelated_fa_rate": 0.9333333333333333
+        },
+        {
+          "theta": 0.7121212121212122,
+          "hit_rate": 1.0,
+          "lure_fa_rate": 1.0,
+          "unrelated_fa_rate": 0.9
+        },
+        {
+          "theta": 0.7171717171717171,
+          "hit_rate": 1.0,
+          "lure_fa_rate": 1.0,
+          "unrelated_fa_rate": 0.8583333333333333
+        },
+        {
+          "theta": 0.7222222222222222,
+          "hit_rate": 1.0,
+          "lure_fa_rate": 1.0,
+          "unrelated_fa_rate": 0.7916666666666666
+        },
+        {
+          "theta": 0.7272727272727273,
+          "hit_rate": 0.9972222222222222,
+          "lure_fa_rate": 1.0,
+          "unrelated_fa_rate": 0.7416666666666667
+        },
+        {
+          "theta": 0.7323232323232324,
+          "hit_rate": 0.9888888888888889,
+          "lure_fa_rate": 1.0,
+          "unrelated_fa_rate": 0.675
+        },
+        {
+          "theta": 0.7373737373737375,
+          "hit_rate": 0.9833333333333333,
+          "lure_fa_rate": 1.0,
+          "unrelated_fa_rate": 0.5583333333333333
+        },
+        {
+          "theta": 0.7424242424242424,
+          "hit_rate": 0.975,
+          "lure_fa_rate": 1.0,
+          "unrelated_fa_rate": 0.4583333333333333
+        },
+        {
+          "theta": 0.7474747474747475,
+          "hit_rate": 0.9694444444444444,
+          "lure_fa_rate": 1.0,
+          "unrelated_fa_rate": 0.375
+        },
+        {
+          "theta": 0.7525252525252526,
+          "hit_rate": 0.9694444444444444,
+          "lure_fa_rate": 1.0,
+          "unrelated_fa_rate": 0.3
+        },
+        {
+          "theta": 0.7575757575757576,
+          "hit_rate": 0.9527777777777777,
+          "lure_fa_rate": 1.0,
+          "unrelated_fa_rate": 0.20833333333333334
+        },
+        {
+          "theta": 0.7626262626262627,
+          "hit_rate": 0.9444444444444444,
+          "lure_fa_rate": 1.0,
+          "unrelated_fa_rate": 0.14166666666666666
+        },
+        {
+          "theta": 0.7676767676767677,
+          "hit_rate": 0.9194444444444444,
+          "lure_fa_rate": 1.0,
+          "unrelated_fa_rate": 0.11666666666666667
+        },
+        {
+          "theta": 0.7727272727272727,
+          "hit_rate": 0.9111111111111111,
+          "lure_fa_rate": 1.0,
+          "unrelated_fa_rate": 0.08333333333333333
+        },
+        {
+          "theta": 0.7777777777777778,
+          "hit_rate": 0.9027777777777778,
+          "lure_fa_rate": 1.0,
+          "unrelated_fa_rate": 0.03333333333333333
+        },
+        {
+          "theta": 0.7828282828282829,
+          "hit_rate": 0.8805555555555555,
+          "lure_fa_rate": 1.0,
+          "unrelated_fa_rate": 0.025
+        },
+        {
+          "theta": 0.7878787878787878,
+          "hit_rate": 0.8611111111111112,
+          "lure_fa_rate": 1.0,
+          "unrelated_fa_rate": 0.016666666666666666
+        },
+        {
+          "theta": 0.7929292929292929,
+          "hit_rate": 0.8166666666666667,
+          "lure_fa_rate": 1.0,
+          "unrelated_fa_rate": 0.008333333333333333
+        },
+        {
+          "theta": 0.797979797979798,
+          "hit_rate": 0.7944444444444444,
+          "lure_fa_rate": 1.0,
+          "unrelated_fa_rate": 0.0
+        },
+        {
+          "theta": 0.803030303030303,
+          "hit_rate": 0.7527777777777778,
+          "lure_fa_rate": 1.0,
+          "unrelated_fa_rate": 0.0
+        },
+        {
+          "theta": 0.8080808080808082,
+          "hit_rate": 0.7111111111111111,
+          "lure_fa_rate": 1.0,
+          "unrelated_fa_rate": 0.0
+        },
+        {
+          "theta": 0.8131313131313131,
+          "hit_rate": 0.6666666666666666,
+          "lure_fa_rate": 1.0,
+          "unrelated_fa_rate": 0.0
+        },
+        {
+          "theta": 0.8181818181818182,
+          "hit_rate": 0.6222222222222222,
+          "lure_fa_rate": 1.0,
+          "unrelated_fa_rate": 0.0
+        },
+        {
+          "theta": 0.8232323232323233,
+          "hit_rate": 0.575,
+          "lure_fa_rate": 1.0,
+          "unrelated_fa_rate": 0.0
+        },
+        {
+          "theta": 0.8282828282828283,
+          "hit_rate": 0.5166666666666667,
+          "lure_fa_rate": 0.9583333333333334,
+          "unrelated_fa_rate": 0.0
+        },
+        {
+          "theta": 0.8333333333333334,
+          "hit_rate": 0.4722222222222222,
+          "lure_fa_rate": 0.9166666666666666,
+          "unrelated_fa_rate": 0.0
+        },
+        {
+          "theta": 0.8383838383838385,
+          "hit_rate": 0.4305555555555556,
+          "lure_fa_rate": 0.7916666666666666,
+          "unrelated_fa_rate": 0.0
+        },
+        {
+          "theta": 0.8434343434343434,
+          "hit_rate": 0.36944444444444446,
+          "lure_fa_rate": 0.7916666666666666,
+          "unrelated_fa_rate": 0.0
+        },
+        {
+          "theta": 0.8484848484848485,
+          "hit_rate": 0.3055555555555556,
+          "lure_fa_rate": 0.75,
+          "unrelated_fa_rate": 0.0
+        },
+        {
+          "theta": 0.8535353535353536,
+          "hit_rate": 0.2638888888888889,
+          "lure_fa_rate": 0.6666666666666666,
+          "unrelated_fa_rate": 0.0
+        },
+        {
+          "theta": 0.8585858585858586,
+          "hit_rate": 0.2111111111111111,
+          "lure_fa_rate": 0.625,
+          "unrelated_fa_rate": 0.0
+        },
+        {
+          "theta": 0.8636363636363636,
+          "hit_rate": 0.16944444444444445,
+          "lure_fa_rate": 0.5833333333333334,
+          "unrelated_fa_rate": 0.0
+        },
+        {
+          "theta": 0.8686868686868687,
+          "hit_rate": 0.125,
+          "lure_fa_rate": 0.4583333333333333,
+          "unrelated_fa_rate": 0.0
+        },
+        {
+          "theta": 0.8737373737373737,
+          "hit_rate": 0.09166666666666666,
+          "lure_fa_rate": 0.375,
+          "unrelated_fa_rate": 0.0
+        },
+        {
+          "theta": 0.8787878787878789,
+          "hit_rate": 0.06111111111111111,
+          "lure_fa_rate": 0.3333333333333333,
+          "unrelated_fa_rate": 0.0
+        },
+        {
+          "theta": 0.8838383838383839,
+          "hit_rate": 0.04722222222222222,
+          "lure_fa_rate": 0.25,
+          "unrelated_fa_rate": 0.0
+        },
+        {
+          "theta": 0.8888888888888888,
+          "hit_rate": 0.027777777777777776,
+          "lure_fa_rate": 0.25,
+          "unrelated_fa_rate": 0.0
+        },
+        {
+          "theta": 0.893939393939394,
+          "hit_rate": 0.011111111111111112,
+          "lure_fa_rate": 0.20833333333333334,
+          "unrelated_fa_rate": 0.0
+        },
+        {
+          "theta": 0.898989898989899,
+          "hit_rate": 0.005555555555555556,
+          "lure_fa_rate": 0.20833333333333334,
+          "unrelated_fa_rate": 0.0
+        },
+        {
+          "theta": 0.9040404040404041,
+          "hit_rate": 0.002777777777777778,
+          "lure_fa_rate": 0.125,
+          "unrelated_fa_rate": 0.0
+        },
+        {
+          "theta": 0.9090909090909092,
+          "hit_rate": 0.002777777777777778,
+          "lure_fa_rate": 0.08333333333333333,
+          "unrelated_fa_rate": 0.0
+        },
+        {
+          "theta": 0.9141414141414141,
+          "hit_rate": 0.0,
+          "lure_fa_rate": 0.041666666666666664,
+          "unrelated_fa_rate": 0.0
+        },
+        {
+          "theta": 0.9191919191919192,
+          "hit_rate": 0.0,
+          "lure_fa_rate": 0.0,
+          "unrelated_fa_rate": 0.0
+        },
+        {
+          "theta": 0.9242424242424243,
+          "hit_rate": 0.0,
+          "lure_fa_rate": 0.0,
+          "unrelated_fa_rate": 0.0
+        },
+        {
+          "theta": 0.9292929292929293,
+          "hit_rate": 0.0,
+          "lure_fa_rate": 0.0,
+          "unrelated_fa_rate": 0.0
+        },
+        {
+          "theta": 0.9343434343434344,
+          "hit_rate": 0.0,
+          "lure_fa_rate": 0.0,
+          "unrelated_fa_rate": 0.0
+        },
+        {
+          "theta": 0.9393939393939394,
+          "hit_rate": 0.0,
+          "lure_fa_rate": 0.0,
+          "unrelated_fa_rate": 0.0
+        },
+        {
+          "theta": 0.9444444444444444,
+          "hit_rate": 0.0,
+          "lure_fa_rate": 0.0,
+          "unrelated_fa_rate": 0.0
+        },
+        {
+          "theta": 0.9494949494949496,
+          "hit_rate": 0.0,
+          "lure_fa_rate": 0.0,
+          "unrelated_fa_rate": 0.0
+        },
+        {
+          "theta": 0.9545454545454546,
+          "hit_rate": 0.0,
+          "lure_fa_rate": 0.0,
+          "unrelated_fa_rate": 0.0
+        },
+        {
+          "theta": 0.9595959595959596,
+          "hit_rate": 0.0,
+          "lure_fa_rate": 0.0,
+          "unrelated_fa_rate": 0.0
+        },
+        {
+          "theta": 0.9646464646464648,
+          "hit_rate": 0.0,
+          "lure_fa_rate": 0.0,
+          "unrelated_fa_rate": 0.0
+        },
+        {
+          "theta": 0.9696969696969697,
+          "hit_rate": 0.0,
+          "lure_fa_rate": 0.0,
+          "unrelated_fa_rate": 0.0
+        },
+        {
+          "theta": 0.9747474747474748,
+          "hit_rate": 0.0,
+          "lure_fa_rate": 0.0,
+          "unrelated_fa_rate": 0.0
+        },
+        {
+          "theta": 0.9797979797979799,
+          "hit_rate": 0.0,
+          "lure_fa_rate": 0.0,
+          "unrelated_fa_rate": 0.0
+        },
+        {
+          "theta": 0.9848484848484849,
+          "hit_rate": 0.0,
+          "lure_fa_rate": 0.0,
+          "unrelated_fa_rate": 0.0
+        },
+        {
+          "theta": 0.98989898989899,
+          "hit_rate": 0.0,
+          "lure_fa_rate": 0.0,
+          "unrelated_fa_rate": 0.0
+        },
+        {
+          "theta": 0.994949494949495,
+          "hit_rate": 0.0,
+          "lure_fa_rate": 0.0,
+          "unrelated_fa_rate": 0.0
+        },
+        {
+          "theta": 1.0,
+          "hit_rate": 0.0,
+          "lure_fa_rate": 0.0,
+          "unrelated_fa_rate": 0.0
+        }
+      ],
+      "overall": {
+        "hit_rate": 0.6055555555555555,
+        "lure_fa_rate": 1.0,
+        "unrelated_fa_rate": 0.0,
+        "threshold": 0.82,
+        "n_lists": 24
+      }
+    },
+    "789": {
+      "seed": 789,
+      "per_list": {
+        "SLEEP": {
+          "studied_mean_sim": 0.8477691769599914,
+          "lure_sim": 0.869317889213562,
+          "unrelated_mean_sim": 0.7029394388198853,
+          "lure_above_082": true,
+          "lure_above_best": true
+        },
+        "NEEDLE": {
+          "studied_mean_sim": 0.8054158131281535,
+          "lure_sim": 0.8753483295440674,
+          "unrelated_mean_sim": 0.7404387354850769,
+          "lure_above_082": true,
+          "lure_above_best": true
+        },
+        "ROUGH": {
+          "studied_mean_sim": 0.8214601119359334,
+          "lure_sim": 0.8580617904663086,
+          "unrelated_mean_sim": 0.7445639610290528,
+          "lure_above_082": true,
+          "lure_above_best": false
+        },
+        "SWEET": {
+          "studied_mean_sim": 0.8451600193977356,
+          "lure_sim": 0.8290784358978271,
+          "unrelated_mean_sim": 0.7368305325508118,
+          "lure_above_082": true,
+          "lure_above_best": false
+        },
+        "CHAIR": {
+          "studied_mean_sim": 0.8400007446606954,
+          "lure_sim": 0.8654493093490601,
+          "unrelated_mean_sim": 0.7387984156608581,
+          "lure_above_082": true,
+          "lure_above_best": true
+        },
+        "WINDOW": {
+          "studied_mean_sim": 0.8132028261820475,
+          "lure_sim": 0.8612492084503174,
+          "unrelated_mean_sim": 0.7528670310974122,
+          "lure_above_082": true,
+          "lure_above_best": false
+        },
+        "SMELL": {
+          "studied_mean_sim": 0.8301159898440044,
+          "lure_sim": 0.9022177457809448,
+          "unrelated_mean_sim": 0.7352857112884521,
+          "lure_above_082": true,
+          "lure_above_best": true
+        },
+        "MOUNTAIN": {
+          "studied_mean_sim": 0.8027871370315551,
+          "lure_sim": 0.8834207653999329,
+          "unrelated_mean_sim": 0.7409024119377137,
+          "lure_above_082": true,
+          "lure_above_best": true
+        },
+        "MUSIC": {
+          "studied_mean_sim": 0.8248344858487447,
+          "lure_sim": 0.8281881809234619,
+          "unrelated_mean_sim": 0.7321822881698609,
+          "lure_above_082": true,
+          "lure_above_best": false
+        },
+        "COLD": {
+          "studied_mean_sim": 0.8574937105178833,
+          "lure_sim": 0.9178606271743774,
+          "unrelated_mean_sim": 0.7437855124473571,
+          "lure_above_082": true,
+          "lure_above_best": true
+        },
+        "ANGER": {
+          "studied_mean_sim": 0.842035706837972,
+          "lure_sim": 0.8923628330230713,
+          "unrelated_mean_sim": 0.7247650384902954,
+          "lure_above_082": true,
+          "lure_above_best": true
+        },
+        "DOCTOR": {
+          "studied_mean_sim": 0.8304252982139587,
+          "lure_sim": 0.905953049659729,
+          "unrelated_mean_sim": 0.7263150811195374,
+          "lure_above_082": true,
+          "lure_above_best": true
+        },
+        "RIVER": {
+          "studied_mean_sim": 0.8241978645324707,
+          "lure_sim": 0.8508210182189941,
+          "unrelated_mean_sim": 0.7436409235000611,
+          "lure_above_082": true,
+          "lure_above_best": false
+        },
+        "FRUIT": {
+          "studied_mean_sim": 0.8414472142855326,
+          "lure_sim": 0.9015421271324158,
+          "unrelated_mean_sim": 0.7233386397361755,
+          "lure_above_082": true,
+          "lure_above_best": true
+        },
+        "BLACK": {
+          "studied_mean_sim": 0.8345003525416056,
+          "lure_sim": 0.8684026598930359,
+          "unrelated_mean_sim": 0.7651412963867188,
+          "lure_above_082": true,
+          "lure_above_best": true
+        },
+        "KING": {
+          "studied_mean_sim": 0.8202660282452902,
+          "lure_sim": 0.8339534997940063,
+          "unrelated_mean_sim": 0.7351897358894348,
+          "lure_above_082": true,
+          "lure_above_best": false
+        },
+        "BREAD": {
+          "studied_mean_sim": 0.849971063931783,
+          "lure_sim": 0.911693811416626,
+          "unrelated_mean_sim": 0.7380501866340637,
+          "lure_above_082": true,
+          "lure_above_best": true
+        },
+        "SPIDER": {
+          "studied_mean_sim": 0.8114460110664368,
+          "lure_sim": 0.8363228440284729,
+          "unrelated_mean_sim": 0.74840087890625,
+          "lure_above_082": true,
+          "lure_above_best": false
+        },
+        "SLOW": {
+          "studied_mean_sim": 0.8114745497703553,
+          "lure_sim": 0.8834695816040039,
+          "unrelated_mean_sim": 0.7609582066535949,
+          "lure_above_082": true,
+          "lure_above_best": true
+        },
+        "MAN": {
+          "studied_mean_sim": 0.8302917957305909,
+          "lure_sim": 0.8499025702476501,
+          "unrelated_mean_sim": 0.7439276099205017,
+          "lure_above_082": true,
+          "lure_above_best": false
+        },
+        "SOFT": {
+          "studied_mean_sim": 0.8311915755271911,
+          "lure_sim": 0.8726128935813904,
+          "unrelated_mean_sim": 0.7682651400566101,
+          "lure_above_082": true,
+          "lure_above_best": true
+        },
+        "THIEF": {
+          "studied_mean_sim": 0.8232764442761739,
+          "lure_sim": 0.8644372224807739,
+          "unrelated_mean_sim": 0.7222109198570251,
+          "lure_above_082": true,
+          "lure_above_best": true
+        },
+        "HIGH": {
+          "studied_mean_sim": 0.8110799948374431,
+          "lure_sim": 0.8344013094902039,
+          "unrelated_mean_sim": 0.7584282279014587,
+          "lure_above_082": true,
+          "lure_above_best": false
+        },
+        "LION": {
+          "studied_mean_sim": 0.8054065227508544,
+          "lure_sim": 0.8468685150146484,
+          "unrelated_mean_sim": 0.7404550194740296,
+          "lure_above_082": true,
+          "lure_above_best": false
+        }
+      },
+      "at_theta_082": {
+        "theta": 0.82,
+        "hit_rate": 0.6055555555555555,
+        "lure_fa_rate": 1.0,
+        "unrelated_fa_rate": 0.0
+      },
+      "best_match": {
+        "theta": 0.8636363636363636,
+        "hit_rate": 0.16944444444444445,
+        "lure_fa_rate": 0.5833333333333334,
+        "unrelated_fa_rate": 0.0
+      },
+      "operating_curve": [
+        {
+          "theta": 0.5,
+          "hit_rate": 1.0,
+          "lure_fa_rate": 1.0,
+          "unrelated_fa_rate": 1.0
+        },
+        {
+          "theta": 0.5050505050505051,
+          "hit_rate": 1.0,
+          "lure_fa_rate": 1.0,
+          "unrelated_fa_rate": 1.0
+        },
+        {
+          "theta": 0.51010101010101,
+          "hit_rate": 1.0,
+          "lure_fa_rate": 1.0,
+          "unrelated_fa_rate": 1.0
+        },
+        {
+          "theta": 0.5151515151515151,
+          "hit_rate": 1.0,
+          "lure_fa_rate": 1.0,
+          "unrelated_fa_rate": 1.0
+        },
+        {
+          "theta": 0.5202020202020202,
+          "hit_rate": 1.0,
+          "lure_fa_rate": 1.0,
+          "unrelated_fa_rate": 1.0
+        },
+        {
+          "theta": 0.5252525252525253,
+          "hit_rate": 1.0,
+          "lure_fa_rate": 1.0,
+          "unrelated_fa_rate": 1.0
+        },
+        {
+          "theta": 0.5303030303030303,
+          "hit_rate": 1.0,
+          "lure_fa_rate": 1.0,
+          "unrelated_fa_rate": 1.0
+        },
+        {
+          "theta": 0.5353535353535354,
+          "hit_rate": 1.0,
+          "lure_fa_rate": 1.0,
+          "unrelated_fa_rate": 1.0
+        },
+        {
+          "theta": 0.5404040404040404,
+          "hit_rate": 1.0,
+          "lure_fa_rate": 1.0,
+          "unrelated_fa_rate": 1.0
+        },
+        {
+          "theta": 0.5454545454545454,
+          "hit_rate": 1.0,
+          "lure_fa_rate": 1.0,
+          "unrelated_fa_rate": 1.0
+        },
+        {
+          "theta": 0.5505050505050505,
+          "hit_rate": 1.0,
+          "lure_fa_rate": 1.0,
+          "unrelated_fa_rate": 1.0
+        },
+        {
+          "theta": 0.5555555555555556,
+          "hit_rate": 1.0,
+          "lure_fa_rate": 1.0,
+          "unrelated_fa_rate": 1.0
+        },
+        {
+          "theta": 0.5606060606060606,
+          "hit_rate": 1.0,
+          "lure_fa_rate": 1.0,
+          "unrelated_fa_rate": 1.0
+        },
+        {
+          "theta": 0.5656565656565656,
+          "hit_rate": 1.0,
+          "lure_fa_rate": 1.0,
+          "unrelated_fa_rate": 1.0
+        },
+        {
+          "theta": 0.5707070707070707,
+          "hit_rate": 1.0,
+          "lure_fa_rate": 1.0,
+          "unrelated_fa_rate": 1.0
+        },
+        {
+          "theta": 0.5757575757575758,
+          "hit_rate": 1.0,
+          "lure_fa_rate": 1.0,
+          "unrelated_fa_rate": 1.0
+        },
+        {
+          "theta": 0.5808080808080808,
+          "hit_rate": 1.0,
+          "lure_fa_rate": 1.0,
+          "unrelated_fa_rate": 1.0
+        },
+        {
+          "theta": 0.5858585858585859,
+          "hit_rate": 1.0,
+          "lure_fa_rate": 1.0,
+          "unrelated_fa_rate": 1.0
+        },
+        {
+          "theta": 0.5909090909090909,
+          "hit_rate": 1.0,
+          "lure_fa_rate": 1.0,
+          "unrelated_fa_rate": 1.0
+        },
+        {
+          "theta": 0.595959595959596,
+          "hit_rate": 1.0,
+          "lure_fa_rate": 1.0,
+          "unrelated_fa_rate": 1.0
+        },
+        {
+          "theta": 0.601010101010101,
+          "hit_rate": 1.0,
+          "lure_fa_rate": 1.0,
+          "unrelated_fa_rate": 1.0
+        },
+        {
+          "theta": 0.6060606060606061,
+          "hit_rate": 1.0,
+          "lure_fa_rate": 1.0,
+          "unrelated_fa_rate": 1.0
+        },
+        {
+          "theta": 0.6111111111111112,
+          "hit_rate": 1.0,
+          "lure_fa_rate": 1.0,
+          "unrelated_fa_rate": 1.0
+        },
+        {
+          "theta": 0.6161616161616161,
+          "hit_rate": 1.0,
+          "lure_fa_rate": 1.0,
+          "unrelated_fa_rate": 1.0
+        },
+        {
+          "theta": 0.6212121212121212,
+          "hit_rate": 1.0,
+          "lure_fa_rate": 1.0,
+          "unrelated_fa_rate": 1.0
+        },
+        {
+          "theta": 0.6262626262626263,
+          "hit_rate": 1.0,
+          "lure_fa_rate": 1.0,
+          "unrelated_fa_rate": 1.0
+        },
+        {
+          "theta": 0.6313131313131313,
+          "hit_rate": 1.0,
+          "lure_fa_rate": 1.0,
+          "unrelated_fa_rate": 1.0
+        },
+        {
+          "theta": 0.6363636363636364,
+          "hit_rate": 1.0,
+          "lure_fa_rate": 1.0,
+          "unrelated_fa_rate": 1.0
+        },
+        {
+          "theta": 0.6414141414141414,
+          "hit_rate": 1.0,
+          "lure_fa_rate": 1.0,
+          "unrelated_fa_rate": 1.0
+        },
+        {
+          "theta": 0.6464646464646464,
+          "hit_rate": 1.0,
+          "lure_fa_rate": 1.0,
+          "unrelated_fa_rate": 1.0
+        },
+        {
+          "theta": 0.6515151515151515,
+          "hit_rate": 1.0,
+          "lure_fa_rate": 1.0,
+          "unrelated_fa_rate": 1.0
+        },
+        {
+          "theta": 0.6565656565656566,
+          "hit_rate": 1.0,
+          "lure_fa_rate": 1.0,
+          "unrelated_fa_rate": 1.0
+        },
+        {
+          "theta": 0.6616161616161617,
+          "hit_rate": 1.0,
+          "lure_fa_rate": 1.0,
+          "unrelated_fa_rate": 0.9916666666666667
+        },
+        {
+          "theta": 0.6666666666666667,
+          "hit_rate": 1.0,
+          "lure_fa_rate": 1.0,
+          "unrelated_fa_rate": 0.9916666666666667
+        },
+        {
+          "theta": 0.6717171717171717,
+          "hit_rate": 1.0,
+          "lure_fa_rate": 1.0,
+          "unrelated_fa_rate": 0.9916666666666667
+        },
+        {
+          "theta": 0.6767676767676768,
+          "hit_rate": 1.0,
+          "lure_fa_rate": 1.0,
+          "unrelated_fa_rate": 0.9916666666666667
+        },
+        {
+          "theta": 0.6818181818181819,
+          "hit_rate": 1.0,
+          "lure_fa_rate": 1.0,
+          "unrelated_fa_rate": 0.9916666666666667
+        },
+        {
+          "theta": 0.6868686868686869,
+          "hit_rate": 1.0,
+          "lure_fa_rate": 1.0,
+          "unrelated_fa_rate": 0.9916666666666667
+        },
+        {
+          "theta": 0.6919191919191919,
+          "hit_rate": 1.0,
+          "lure_fa_rate": 1.0,
+          "unrelated_fa_rate": 0.9833333333333333
+        },
+        {
+          "theta": 0.696969696969697,
+          "hit_rate": 1.0,
+          "lure_fa_rate": 1.0,
+          "unrelated_fa_rate": 0.975
+        },
+        {
+          "theta": 0.702020202020202,
+          "hit_rate": 1.0,
+          "lure_fa_rate": 1.0,
+          "unrelated_fa_rate": 0.95
+        },
+        {
+          "theta": 0.7070707070707071,
+          "hit_rate": 1.0,
+          "lure_fa_rate": 1.0,
+          "unrelated_fa_rate": 0.9333333333333333
+        },
+        {
+          "theta": 0.7121212121212122,
+          "hit_rate": 1.0,
+          "lure_fa_rate": 1.0,
+          "unrelated_fa_rate": 0.9
+        },
+        {
+          "theta": 0.7171717171717171,
+          "hit_rate": 1.0,
+          "lure_fa_rate": 1.0,
+          "unrelated_fa_rate": 0.8583333333333333
+        },
+        {
+          "theta": 0.7222222222222222,
+          "hit_rate": 1.0,
+          "lure_fa_rate": 1.0,
+          "unrelated_fa_rate": 0.7916666666666666
+        },
+        {
+          "theta": 0.7272727272727273,
+          "hit_rate": 0.9972222222222222,
+          "lure_fa_rate": 1.0,
+          "unrelated_fa_rate": 0.7416666666666667
+        },
+        {
+          "theta": 0.7323232323232324,
+          "hit_rate": 0.9888888888888889,
+          "lure_fa_rate": 1.0,
+          "unrelated_fa_rate": 0.675
+        },
+        {
+          "theta": 0.7373737373737375,
+          "hit_rate": 0.9833333333333333,
+          "lure_fa_rate": 1.0,
+          "unrelated_fa_rate": 0.5583333333333333
+        },
+        {
+          "theta": 0.7424242424242424,
+          "hit_rate": 0.975,
+          "lure_fa_rate": 1.0,
+          "unrelated_fa_rate": 0.4583333333333333
+        },
+        {
+          "theta": 0.7474747474747475,
+          "hit_rate": 0.9694444444444444,
+          "lure_fa_rate": 1.0,
+          "unrelated_fa_rate": 0.375
+        },
+        {
+          "theta": 0.7525252525252526,
+          "hit_rate": 0.9694444444444444,
+          "lure_fa_rate": 1.0,
+          "unrelated_fa_rate": 0.3
+        },
+        {
+          "theta": 0.7575757575757576,
+          "hit_rate": 0.9527777777777777,
+          "lure_fa_rate": 1.0,
+          "unrelated_fa_rate": 0.20833333333333334
+        },
+        {
+          "theta": 0.7626262626262627,
+          "hit_rate": 0.9444444444444444,
+          "lure_fa_rate": 1.0,
+          "unrelated_fa_rate": 0.14166666666666666
+        },
+        {
+          "theta": 0.7676767676767677,
+          "hit_rate": 0.9194444444444444,
+          "lure_fa_rate": 1.0,
+          "unrelated_fa_rate": 0.11666666666666667
+        },
+        {
+          "theta": 0.7727272727272727,
+          "hit_rate": 0.9111111111111111,
+          "lure_fa_rate": 1.0,
+          "unrelated_fa_rate": 0.08333333333333333
+        },
+        {
+          "theta": 0.7777777777777778,
+          "hit_rate": 0.9027777777777778,
+          "lure_fa_rate": 1.0,
+          "unrelated_fa_rate": 0.03333333333333333
+        },
+        {
+          "theta": 0.7828282828282829,
+          "hit_rate": 0.8805555555555555,
+          "lure_fa_rate": 1.0,
+          "unrelated_fa_rate": 0.025
+        },
+        {
+          "theta": 0.7878787878787878,
+          "hit_rate": 0.8611111111111112,
+          "lure_fa_rate": 1.0,
+          "unrelated_fa_rate": 0.016666666666666666
+        },
+        {
+          "theta": 0.7929292929292929,
+          "hit_rate": 0.8166666666666667,
+          "lure_fa_rate": 1.0,
+          "unrelated_fa_rate": 0.008333333333333333
+        },
+        {
+          "theta": 0.797979797979798,
+          "hit_rate": 0.7944444444444444,
+          "lure_fa_rate": 1.0,
+          "unrelated_fa_rate": 0.0
+        },
+        {
+          "theta": 0.803030303030303,
+          "hit_rate": 0.7527777777777778,
+          "lure_fa_rate": 1.0,
+          "unrelated_fa_rate": 0.0
+        },
+        {
+          "theta": 0.8080808080808082,
+          "hit_rate": 0.7111111111111111,
+          "lure_fa_rate": 1.0,
+          "unrelated_fa_rate": 0.0
+        },
+        {
+          "theta": 0.8131313131313131,
+          "hit_rate": 0.6666666666666666,
+          "lure_fa_rate": 1.0,
+          "unrelated_fa_rate": 0.0
+        },
+        {
+          "theta": 0.8181818181818182,
+          "hit_rate": 0.6222222222222222,
+          "lure_fa_rate": 1.0,
+          "unrelated_fa_rate": 0.0
+        },
+        {
+          "theta": 0.8232323232323233,
+          "hit_rate": 0.575,
+          "lure_fa_rate": 1.0,
+          "unrelated_fa_rate": 0.0
+        },
+        {
+          "theta": 0.8282828282828283,
+          "hit_rate": 0.5166666666666667,
+          "lure_fa_rate": 0.9583333333333334,
+          "unrelated_fa_rate": 0.0
+        },
+        {
+          "theta": 0.8333333333333334,
+          "hit_rate": 0.4722222222222222,
+          "lure_fa_rate": 0.9166666666666666,
+          "unrelated_fa_rate": 0.0
+        },
+        {
+          "theta": 0.8383838383838385,
+          "hit_rate": 0.4305555555555556,
+          "lure_fa_rate": 0.7916666666666666,
+          "unrelated_fa_rate": 0.0
+        },
+        {
+          "theta": 0.8434343434343434,
+          "hit_rate": 0.36944444444444446,
+          "lure_fa_rate": 0.7916666666666666,
+          "unrelated_fa_rate": 0.0
+        },
+        {
+          "theta": 0.8484848484848485,
+          "hit_rate": 0.3055555555555556,
+          "lure_fa_rate": 0.75,
+          "unrelated_fa_rate": 0.0
+        },
+        {
+          "theta": 0.8535353535353536,
+          "hit_rate": 0.2638888888888889,
+          "lure_fa_rate": 0.6666666666666666,
+          "unrelated_fa_rate": 0.0
+        },
+        {
+          "theta": 0.8585858585858586,
+          "hit_rate": 0.2111111111111111,
+          "lure_fa_rate": 0.625,
+          "unrelated_fa_rate": 0.0
+        },
+        {
+          "theta": 0.8636363636363636,
+          "hit_rate": 0.16944444444444445,
+          "lure_fa_rate": 0.5833333333333334,
+          "unrelated_fa_rate": 0.0
+        },
+        {
+          "theta": 0.8686868686868687,
+          "hit_rate": 0.125,
+          "lure_fa_rate": 0.4583333333333333,
+          "unrelated_fa_rate": 0.0
+        },
+        {
+          "theta": 0.8737373737373737,
+          "hit_rate": 0.09166666666666666,
+          "lure_fa_rate": 0.375,
+          "unrelated_fa_rate": 0.0
+        },
+        {
+          "theta": 0.8787878787878789,
+          "hit_rate": 0.06111111111111111,
+          "lure_fa_rate": 0.3333333333333333,
+          "unrelated_fa_rate": 0.0
+        },
+        {
+          "theta": 0.8838383838383839,
+          "hit_rate": 0.04722222222222222,
+          "lure_fa_rate": 0.25,
+          "unrelated_fa_rate": 0.0
+        },
+        {
+          "theta": 0.8888888888888888,
+          "hit_rate": 0.027777777777777776,
+          "lure_fa_rate": 0.25,
+          "unrelated_fa_rate": 0.0
+        },
+        {
+          "theta": 0.893939393939394,
+          "hit_rate": 0.011111111111111112,
+          "lure_fa_rate": 0.20833333333333334,
+          "unrelated_fa_rate": 0.0
+        },
+        {
+          "theta": 0.898989898989899,
+          "hit_rate": 0.005555555555555556,
+          "lure_fa_rate": 0.20833333333333334,
+          "unrelated_fa_rate": 0.0
+        },
+        {
+          "theta": 0.9040404040404041,
+          "hit_rate": 0.002777777777777778,
+          "lure_fa_rate": 0.125,
+          "unrelated_fa_rate": 0.0
+        },
+        {
+          "theta": 0.9090909090909092,
+          "hit_rate": 0.002777777777777778,
+          "lure_fa_rate": 0.08333333333333333,
+          "unrelated_fa_rate": 0.0
+        },
+        {
+          "theta": 0.9141414141414141,
+          "hit_rate": 0.0,
+          "lure_fa_rate": 0.041666666666666664,
+          "unrelated_fa_rate": 0.0
+        },
+        {
+          "theta": 0.9191919191919192,
+          "hit_rate": 0.0,
+          "lure_fa_rate": 0.0,
+          "unrelated_fa_rate": 0.0
+        },
+        {
+          "theta": 0.9242424242424243,
+          "hit_rate": 0.0,
+          "lure_fa_rate": 0.0,
+          "unrelated_fa_rate": 0.0
+        },
+        {
+          "theta": 0.9292929292929293,
+          "hit_rate": 0.0,
+          "lure_fa_rate": 0.0,
+          "unrelated_fa_rate": 0.0
+        },
+        {
+          "theta": 0.9343434343434344,
+          "hit_rate": 0.0,
+          "lure_fa_rate": 0.0,
+          "unrelated_fa_rate": 0.0
+        },
+        {
+          "theta": 0.9393939393939394,
+          "hit_rate": 0.0,
+          "lure_fa_rate": 0.0,
+          "unrelated_fa_rate": 0.0
+        },
+        {
+          "theta": 0.9444444444444444,
+          "hit_rate": 0.0,
+          "lure_fa_rate": 0.0,
+          "unrelated_fa_rate": 0.0
+        },
+        {
+          "theta": 0.9494949494949496,
+          "hit_rate": 0.0,
+          "lure_fa_rate": 0.0,
+          "unrelated_fa_rate": 0.0
+        },
+        {
+          "theta": 0.9545454545454546,
+          "hit_rate": 0.0,
+          "lure_fa_rate": 0.0,
+          "unrelated_fa_rate": 0.0
+        },
+        {
+          "theta": 0.9595959595959596,
+          "hit_rate": 0.0,
+          "lure_fa_rate": 0.0,
+          "unrelated_fa_rate": 0.0
+        },
+        {
+          "theta": 0.9646464646464648,
+          "hit_rate": 0.0,
+          "lure_fa_rate": 0.0,
+          "unrelated_fa_rate": 0.0
+        },
+        {
+          "theta": 0.9696969696969697,
+          "hit_rate": 0.0,
+          "lure_fa_rate": 0.0,
+          "unrelated_fa_rate": 0.0
+        },
+        {
+          "theta": 0.9747474747474748,
+          "hit_rate": 0.0,
+          "lure_fa_rate": 0.0,
+          "unrelated_fa_rate": 0.0
+        },
+        {
+          "theta": 0.9797979797979799,
+          "hit_rate": 0.0,
+          "lure_fa_rate": 0.0,
+          "unrelated_fa_rate": 0.0
+        },
+        {
+          "theta": 0.9848484848484849,
+          "hit_rate": 0.0,
+          "lure_fa_rate": 0.0,
+          "unrelated_fa_rate": 0.0
+        },
+        {
+          "theta": 0.98989898989899,
+          "hit_rate": 0.0,
+          "lure_fa_rate": 0.0,
+          "unrelated_fa_rate": 0.0
+        },
+        {
+          "theta": 0.994949494949495,
+          "hit_rate": 0.0,
+          "lure_fa_rate": 0.0,
+          "unrelated_fa_rate": 0.0
+        },
+        {
+          "theta": 1.0,
+          "hit_rate": 0.0,
+          "lure_fa_rate": 0.0,
+          "unrelated_fa_rate": 0.0
+        }
+      ],
+      "overall": {
+        "hit_rate": 0.6055555555555555,
+        "lure_fa_rate": 1.0,
+        "unrelated_fa_rate": 0.0,
+        "threshold": 0.82,
+        "n_lists": 24
+      }
+    },
+    "1024": {
+      "seed": 1024,
+      "per_list": {
+        "SLEEP": {
+          "studied_mean_sim": 0.8477691769599914,
+          "lure_sim": 0.869317889213562,
+          "unrelated_mean_sim": 0.7029394388198853,
+          "lure_above_082": true,
+          "lure_above_best": true
+        },
+        "NEEDLE": {
+          "studied_mean_sim": 0.8054158131281535,
+          "lure_sim": 0.8753483295440674,
+          "unrelated_mean_sim": 0.7404387354850769,
+          "lure_above_082": true,
+          "lure_above_best": true
+        },
+        "ROUGH": {
+          "studied_mean_sim": 0.8214601119359334,
+          "lure_sim": 0.8580617904663086,
+          "unrelated_mean_sim": 0.7445639610290528,
+          "lure_above_082": true,
+          "lure_above_best": false
+        },
+        "SWEET": {
+          "studied_mean_sim": 0.8451600193977356,
+          "lure_sim": 0.8290784358978271,
+          "unrelated_mean_sim": 0.7368305325508118,
+          "lure_above_082": true,
+          "lure_above_best": false
+        },
+        "CHAIR": {
+          "studied_mean_sim": 0.8400007446606954,
+          "lure_sim": 0.8654493093490601,
+          "unrelated_mean_sim": 0.7387984156608581,
+          "lure_above_082": true,
+          "lure_above_best": true
+        },
+        "WINDOW": {
+          "studied_mean_sim": 0.8132028261820475,
+          "lure_sim": 0.8612492084503174,
+          "unrelated_mean_sim": 0.7528670310974122,
+          "lure_above_082": true,
+          "lure_above_best": false
+        },
+        "SMELL": {
+          "studied_mean_sim": 0.8301159898440044,
+          "lure_sim": 0.9022177457809448,
+          "unrelated_mean_sim": 0.7352857112884521,
+          "lure_above_082": true,
+          "lure_above_best": true
+        },
+        "MOUNTAIN": {
+          "studied_mean_sim": 0.8027871370315551,
+          "lure_sim": 0.8834207653999329,
+          "unrelated_mean_sim": 0.7409024119377137,
+          "lure_above_082": true,
+          "lure_above_best": true
+        },
+        "MUSIC": {
+          "studied_mean_sim": 0.8248344858487447,
+          "lure_sim": 0.8281881809234619,
+          "unrelated_mean_sim": 0.7321822881698609,
+          "lure_above_082": true,
+          "lure_above_best": false
+        },
+        "COLD": {
+          "studied_mean_sim": 0.8574937105178833,
+          "lure_sim": 0.9178606271743774,
+          "unrelated_mean_sim": 0.7437855124473571,
+          "lure_above_082": true,
+          "lure_above_best": true
+        },
+        "ANGER": {
+          "studied_mean_sim": 0.842035706837972,
+          "lure_sim": 0.8923628330230713,
+          "unrelated_mean_sim": 0.7247650384902954,
+          "lure_above_082": true,
+          "lure_above_best": true
+        },
+        "DOCTOR": {
+          "studied_mean_sim": 0.8304252982139587,
+          "lure_sim": 0.905953049659729,
+          "unrelated_mean_sim": 0.7263150811195374,
+          "lure_above_082": true,
+          "lure_above_best": true
+        },
+        "RIVER": {
+          "studied_mean_sim": 0.8241978645324707,
+          "lure_sim": 0.8508210182189941,
+          "unrelated_mean_sim": 0.7436409235000611,
+          "lure_above_082": true,
+          "lure_above_best": false
+        },
+        "FRUIT": {
+          "studied_mean_sim": 0.8414472142855326,
+          "lure_sim": 0.9015421271324158,
+          "unrelated_mean_sim": 0.7233386397361755,
+          "lure_above_082": true,
+          "lure_above_best": true
+        },
+        "BLACK": {
+          "studied_mean_sim": 0.8345003525416056,
+          "lure_sim": 0.8684026598930359,
+          "unrelated_mean_sim": 0.7651412963867188,
+          "lure_above_082": true,
+          "lure_above_best": true
+        },
+        "KING": {
+          "studied_mean_sim": 0.8202660282452902,
+          "lure_sim": 0.8339534997940063,
+          "unrelated_mean_sim": 0.7351897358894348,
+          "lure_above_082": true,
+          "lure_above_best": false
+        },
+        "BREAD": {
+          "studied_mean_sim": 0.849971063931783,
+          "lure_sim": 0.911693811416626,
+          "unrelated_mean_sim": 0.7380501866340637,
+          "lure_above_082": true,
+          "lure_above_best": true
+        },
+        "SPIDER": {
+          "studied_mean_sim": 0.8114460110664368,
+          "lure_sim": 0.8363228440284729,
+          "unrelated_mean_sim": 0.74840087890625,
+          "lure_above_082": true,
+          "lure_above_best": false
+        },
+        "SLOW": {
+          "studied_mean_sim": 0.8114745497703553,
+          "lure_sim": 0.8834695816040039,
+          "unrelated_mean_sim": 0.7609582066535949,
+          "lure_above_082": true,
+          "lure_above_best": true
+        },
+        "MAN": {
+          "studied_mean_sim": 0.8302917957305909,
+          "lure_sim": 0.8499025702476501,
+          "unrelated_mean_sim": 0.7439276099205017,
+          "lure_above_082": true,
+          "lure_above_best": false
+        },
+        "SOFT": {
+          "studied_mean_sim": 0.8311915755271911,
+          "lure_sim": 0.8726128935813904,
+          "unrelated_mean_sim": 0.7682651400566101,
+          "lure_above_082": true,
+          "lure_above_best": true
+        },
+        "THIEF": {
+          "studied_mean_sim": 0.8232764442761739,
+          "lure_sim": 0.8644372224807739,
+          "unrelated_mean_sim": 0.7222109198570251,
+          "lure_above_082": true,
+          "lure_above_best": true
+        },
+        "HIGH": {
+          "studied_mean_sim": 0.8110799948374431,
+          "lure_sim": 0.8344013094902039,
+          "unrelated_mean_sim": 0.7584282279014587,
+          "lure_above_082": true,
+          "lure_above_best": false
+        },
+        "LION": {
+          "studied_mean_sim": 0.8054065227508544,
+          "lure_sim": 0.8468685150146484,
+          "unrelated_mean_sim": 0.7404550194740296,
+          "lure_above_082": true,
+          "lure_above_best": false
+        }
+      },
+      "at_theta_082": {
+        "theta": 0.82,
+        "hit_rate": 0.6055555555555555,
+        "lure_fa_rate": 1.0,
+        "unrelated_fa_rate": 0.0
+      },
+      "best_match": {
+        "theta": 0.8636363636363636,
+        "hit_rate": 0.16944444444444445,
+        "lure_fa_rate": 0.5833333333333334,
+        "unrelated_fa_rate": 0.0
+      },
+      "operating_curve": [
+        {
+          "theta": 0.5,
+          "hit_rate": 1.0,
+          "lure_fa_rate": 1.0,
+          "unrelated_fa_rate": 1.0
+        },
+        {
+          "theta": 0.5050505050505051,
+          "hit_rate": 1.0,
+          "lure_fa_rate": 1.0,
+          "unrelated_fa_rate": 1.0
+        },
+        {
+          "theta": 0.51010101010101,
+          "hit_rate": 1.0,
+          "lure_fa_rate": 1.0,
+          "unrelated_fa_rate": 1.0
+        },
+        {
+          "theta": 0.5151515151515151,
+          "hit_rate": 1.0,
+          "lure_fa_rate": 1.0,
+          "unrelated_fa_rate": 1.0
+        },
+        {
+          "theta": 0.5202020202020202,
+          "hit_rate": 1.0,
+          "lure_fa_rate": 1.0,
+          "unrelated_fa_rate": 1.0
+        },
+        {
+          "theta": 0.5252525252525253,
+          "hit_rate": 1.0,
+          "lure_fa_rate": 1.0,
+          "unrelated_fa_rate": 1.0
+        },
+        {
+          "theta": 0.5303030303030303,
+          "hit_rate": 1.0,
+          "lure_fa_rate": 1.0,
+          "unrelated_fa_rate": 1.0
+        },
+        {
+          "theta": 0.5353535353535354,
+          "hit_rate": 1.0,
+          "lure_fa_rate": 1.0,
+          "unrelated_fa_rate": 1.0
+        },
+        {
+          "theta": 0.5404040404040404,
+          "hit_rate": 1.0,
+          "lure_fa_rate": 1.0,
+          "unrelated_fa_rate": 1.0
+        },
+        {
+          "theta": 0.5454545454545454,
+          "hit_rate": 1.0,
+          "lure_fa_rate": 1.0,
+          "unrelated_fa_rate": 1.0
+        },
+        {
+          "theta": 0.5505050505050505,
+          "hit_rate": 1.0,
+          "lure_fa_rate": 1.0,
+          "unrelated_fa_rate": 1.0
+        },
+        {
+          "theta": 0.5555555555555556,
+          "hit_rate": 1.0,
+          "lure_fa_rate": 1.0,
+          "unrelated_fa_rate": 1.0
+        },
+        {
+          "theta": 0.5606060606060606,
+          "hit_rate": 1.0,
+          "lure_fa_rate": 1.0,
+          "unrelated_fa_rate": 1.0
+        },
+        {
+          "theta": 0.5656565656565656,
+          "hit_rate": 1.0,
+          "lure_fa_rate": 1.0,
+          "unrelated_fa_rate": 1.0
+        },
+        {
+          "theta": 0.5707070707070707,
+          "hit_rate": 1.0,
+          "lure_fa_rate": 1.0,
+          "unrelated_fa_rate": 1.0
+        },
+        {
+          "theta": 0.5757575757575758,
+          "hit_rate": 1.0,
+          "lure_fa_rate": 1.0,
+          "unrelated_fa_rate": 1.0
+        },
+        {
+          "theta": 0.5808080808080808,
+          "hit_rate": 1.0,
+          "lure_fa_rate": 1.0,
+          "unrelated_fa_rate": 1.0
+        },
+        {
+          "theta": 0.5858585858585859,
+          "hit_rate": 1.0,
+          "lure_fa_rate": 1.0,
+          "unrelated_fa_rate": 1.0
+        },
+        {
+          "theta": 0.5909090909090909,
+          "hit_rate": 1.0,
+          "lure_fa_rate": 1.0,
+          "unrelated_fa_rate": 1.0
+        },
+        {
+          "theta": 0.595959595959596,
+          "hit_rate": 1.0,
+          "lure_fa_rate": 1.0,
+          "unrelated_fa_rate": 1.0
+        },
+        {
+          "theta": 0.601010101010101,
+          "hit_rate": 1.0,
+          "lure_fa_rate": 1.0,
+          "unrelated_fa_rate": 1.0
+        },
+        {
+          "theta": 0.6060606060606061,
+          "hit_rate": 1.0,
+          "lure_fa_rate": 1.0,
+          "unrelated_fa_rate": 1.0
+        },
+        {
+          "theta": 0.6111111111111112,
+          "hit_rate": 1.0,
+          "lure_fa_rate": 1.0,
+          "unrelated_fa_rate": 1.0
+        },
+        {
+          "theta": 0.6161616161616161,
+          "hit_rate": 1.0,
+          "lure_fa_rate": 1.0,
+          "unrelated_fa_rate": 1.0
+        },
+        {
+          "theta": 0.6212121212121212,
+          "hit_rate": 1.0,
+          "lure_fa_rate": 1.0,
+          "unrelated_fa_rate": 1.0
+        },
+        {
+          "theta": 0.6262626262626263,
+          "hit_rate": 1.0,
+          "lure_fa_rate": 1.0,
+          "unrelated_fa_rate": 1.0
+        },
+        {
+          "theta": 0.6313131313131313,
+          "hit_rate": 1.0,
+          "lure_fa_rate": 1.0,
+          "unrelated_fa_rate": 1.0
+        },
+        {
+          "theta": 0.6363636363636364,
+          "hit_rate": 1.0,
+          "lure_fa_rate": 1.0,
+          "unrelated_fa_rate": 1.0
+        },
+        {
+          "theta": 0.6414141414141414,
+          "hit_rate": 1.0,
+          "lure_fa_rate": 1.0,
+          "unrelated_fa_rate": 1.0
+        },
+        {
+          "theta": 0.6464646464646464,
+          "hit_rate": 1.0,
+          "lure_fa_rate": 1.0,
+          "unrelated_fa_rate": 1.0
+        },
+        {
+          "theta": 0.6515151515151515,
+          "hit_rate": 1.0,
+          "lure_fa_rate": 1.0,
+          "unrelated_fa_rate": 1.0
+        },
+        {
+          "theta": 0.6565656565656566,
+          "hit_rate": 1.0,
+          "lure_fa_rate": 1.0,
+          "unrelated_fa_rate": 1.0
+        },
+        {
+          "theta": 0.6616161616161617,
+          "hit_rate": 1.0,
+          "lure_fa_rate": 1.0,
+          "unrelated_fa_rate": 0.9916666666666667
+        },
+        {
+          "theta": 0.6666666666666667,
+          "hit_rate": 1.0,
+          "lure_fa_rate": 1.0,
+          "unrelated_fa_rate": 0.9916666666666667
+        },
+        {
+          "theta": 0.6717171717171717,
+          "hit_rate": 1.0,
+          "lure_fa_rate": 1.0,
+          "unrelated_fa_rate": 0.9916666666666667
+        },
+        {
+          "theta": 0.6767676767676768,
+          "hit_rate": 1.0,
+          "lure_fa_rate": 1.0,
+          "unrelated_fa_rate": 0.9916666666666667
+        },
+        {
+          "theta": 0.6818181818181819,
+          "hit_rate": 1.0,
+          "lure_fa_rate": 1.0,
+          "unrelated_fa_rate": 0.9916666666666667
+        },
+        {
+          "theta": 0.6868686868686869,
+          "hit_rate": 1.0,
+          "lure_fa_rate": 1.0,
+          "unrelated_fa_rate": 0.9916666666666667
+        },
+        {
+          "theta": 0.6919191919191919,
+          "hit_rate": 1.0,
+          "lure_fa_rate": 1.0,
+          "unrelated_fa_rate": 0.9833333333333333
+        },
+        {
+          "theta": 0.696969696969697,
+          "hit_rate": 1.0,
+          "lure_fa_rate": 1.0,
+          "unrelated_fa_rate": 0.975
+        },
+        {
+          "theta": 0.702020202020202,
+          "hit_rate": 1.0,
+          "lure_fa_rate": 1.0,
+          "unrelated_fa_rate": 0.95
+        },
+        {
+          "theta": 0.7070707070707071,
+          "hit_rate": 1.0,
+          "lure_fa_rate": 1.0,
+          "unrelated_fa_rate": 0.9333333333333333
+        },
+        {
+          "theta": 0.7121212121212122,
+          "hit_rate": 1.0,
+          "lure_fa_rate": 1.0,
+          "unrelated_fa_rate": 0.9
+        },
+        {
+          "theta": 0.7171717171717171,
+          "hit_rate": 1.0,
+          "lure_fa_rate": 1.0,
+          "unrelated_fa_rate": 0.8583333333333333
+        },
+        {
+          "theta": 0.7222222222222222,
+          "hit_rate": 1.0,
+          "lure_fa_rate": 1.0,
+          "unrelated_fa_rate": 0.7916666666666666
+        },
+        {
+          "theta": 0.7272727272727273,
+          "hit_rate": 0.9972222222222222,
+          "lure_fa_rate": 1.0,
+          "unrelated_fa_rate": 0.7416666666666667
+        },
+        {
+          "theta": 0.7323232323232324,
+          "hit_rate": 0.9888888888888889,
+          "lure_fa_rate": 1.0,
+          "unrelated_fa_rate": 0.675
+        },
+        {
+          "theta": 0.7373737373737375,
+          "hit_rate": 0.9833333333333333,
+          "lure_fa_rate": 1.0,
+          "unrelated_fa_rate": 0.5583333333333333
+        },
+        {
+          "theta": 0.7424242424242424,
+          "hit_rate": 0.975,
+          "lure_fa_rate": 1.0,
+          "unrelated_fa_rate": 0.4583333333333333
+        },
+        {
+          "theta": 0.7474747474747475,
+          "hit_rate": 0.9694444444444444,
+          "lure_fa_rate": 1.0,
+          "unrelated_fa_rate": 0.375
+        },
+        {
+          "theta": 0.7525252525252526,
+          "hit_rate": 0.9694444444444444,
+          "lure_fa_rate": 1.0,
+          "unrelated_fa_rate": 0.3
+        },
+        {
+          "theta": 0.7575757575757576,
+          "hit_rate": 0.9527777777777777,
+          "lure_fa_rate": 1.0,
+          "unrelated_fa_rate": 0.20833333333333334
+        },
+        {
+          "theta": 0.7626262626262627,
+          "hit_rate": 0.9444444444444444,
+          "lure_fa_rate": 1.0,
+          "unrelated_fa_rate": 0.14166666666666666
+        },
+        {
+          "theta": 0.7676767676767677,
+          "hit_rate": 0.9194444444444444,
+          "lure_fa_rate": 1.0,
+          "unrelated_fa_rate": 0.11666666666666667
+        },
+        {
+          "theta": 0.7727272727272727,
+          "hit_rate": 0.9111111111111111,
+          "lure_fa_rate": 1.0,
+          "unrelated_fa_rate": 0.08333333333333333
+        },
+        {
+          "theta": 0.7777777777777778,
+          "hit_rate": 0.9027777777777778,
+          "lure_fa_rate": 1.0,
+          "unrelated_fa_rate": 0.03333333333333333
+        },
+        {
+          "theta": 0.7828282828282829,
+          "hit_rate": 0.8805555555555555,
+          "lure_fa_rate": 1.0,
+          "unrelated_fa_rate": 0.025
+        },
+        {
+          "theta": 0.7878787878787878,
+          "hit_rate": 0.8611111111111112,
+          "lure_fa_rate": 1.0,
+          "unrelated_fa_rate": 0.016666666666666666
+        },
+        {
+          "theta": 0.7929292929292929,
+          "hit_rate": 0.8166666666666667,
+          "lure_fa_rate": 1.0,
+          "unrelated_fa_rate": 0.008333333333333333
+        },
+        {
+          "theta": 0.797979797979798,
+          "hit_rate": 0.7944444444444444,
+          "lure_fa_rate": 1.0,
+          "unrelated_fa_rate": 0.0
+        },
+        {
+          "theta": 0.803030303030303,
+          "hit_rate": 0.7527777777777778,
+          "lure_fa_rate": 1.0,
+          "unrelated_fa_rate": 0.0
+        },
+        {
+          "theta": 0.8080808080808082,
+          "hit_rate": 0.7111111111111111,
+          "lure_fa_rate": 1.0,
+          "unrelated_fa_rate": 0.0
+        },
+        {
+          "theta": 0.8131313131313131,
+          "hit_rate": 0.6666666666666666,
+          "lure_fa_rate": 1.0,
+          "unrelated_fa_rate": 0.0
+        },
+        {
+          "theta": 0.8181818181818182,
+          "hit_rate": 0.6222222222222222,
+          "lure_fa_rate": 1.0,
+          "unrelated_fa_rate": 0.0
+        },
+        {
+          "theta": 0.8232323232323233,
+          "hit_rate": 0.575,
+          "lure_fa_rate": 1.0,
+          "unrelated_fa_rate": 0.0
+        },
+        {
+          "theta": 0.8282828282828283,
+          "hit_rate": 0.5166666666666667,
+          "lure_fa_rate": 0.9583333333333334,
+          "unrelated_fa_rate": 0.0
+        },
+        {
+          "theta": 0.8333333333333334,
+          "hit_rate": 0.4722222222222222,
+          "lure_fa_rate": 0.9166666666666666,
+          "unrelated_fa_rate": 0.0
+        },
+        {
+          "theta": 0.8383838383838385,
+          "hit_rate": 0.4305555555555556,
+          "lure_fa_rate": 0.7916666666666666,
+          "unrelated_fa_rate": 0.0
+        },
+        {
+          "theta": 0.8434343434343434,
+          "hit_rate": 0.36944444444444446,
+          "lure_fa_rate": 0.7916666666666666,
+          "unrelated_fa_rate": 0.0
+        },
+        {
+          "theta": 0.8484848484848485,
+          "hit_rate": 0.3055555555555556,
+          "lure_fa_rate": 0.75,
+          "unrelated_fa_rate": 0.0
+        },
+        {
+          "theta": 0.8535353535353536,
+          "hit_rate": 0.2638888888888889,
+          "lure_fa_rate": 0.6666666666666666,
+          "unrelated_fa_rate": 0.0
+        },
+        {
+          "theta": 0.8585858585858586,
+          "hit_rate": 0.2111111111111111,
+          "lure_fa_rate": 0.625,
+          "unrelated_fa_rate": 0.0
+        },
+        {
+          "theta": 0.8636363636363636,
+          "hit_rate": 0.16944444444444445,
+          "lure_fa_rate": 0.5833333333333334,
+          "unrelated_fa_rate": 0.0
+        },
+        {
+          "theta": 0.8686868686868687,
+          "hit_rate": 0.125,
+          "lure_fa_rate": 0.4583333333333333,
+          "unrelated_fa_rate": 0.0
+        },
+        {
+          "theta": 0.8737373737373737,
+          "hit_rate": 0.09166666666666666,
+          "lure_fa_rate": 0.375,
+          "unrelated_fa_rate": 0.0
+        },
+        {
+          "theta": 0.8787878787878789,
+          "hit_rate": 0.06111111111111111,
+          "lure_fa_rate": 0.3333333333333333,
+          "unrelated_fa_rate": 0.0
+        },
+        {
+          "theta": 0.8838383838383839,
+          "hit_rate": 0.04722222222222222,
+          "lure_fa_rate": 0.25,
+          "unrelated_fa_rate": 0.0
+        },
+        {
+          "theta": 0.8888888888888888,
+          "hit_rate": 0.027777777777777776,
+          "lure_fa_rate": 0.25,
+          "unrelated_fa_rate": 0.0
+        },
+        {
+          "theta": 0.893939393939394,
+          "hit_rate": 0.011111111111111112,
+          "lure_fa_rate": 0.20833333333333334,
+          "unrelated_fa_rate": 0.0
+        },
+        {
+          "theta": 0.898989898989899,
+          "hit_rate": 0.005555555555555556,
+          "lure_fa_rate": 0.20833333333333334,
+          "unrelated_fa_rate": 0.0
+        },
+        {
+          "theta": 0.9040404040404041,
+          "hit_rate": 0.002777777777777778,
+          "lure_fa_rate": 0.125,
+          "unrelated_fa_rate": 0.0
+        },
+        {
+          "theta": 0.9090909090909092,
+          "hit_rate": 0.002777777777777778,
+          "lure_fa_rate": 0.08333333333333333,
+          "unrelated_fa_rate": 0.0
+        },
+        {
+          "theta": 0.9141414141414141,
+          "hit_rate": 0.0,
+          "lure_fa_rate": 0.041666666666666664,
+          "unrelated_fa_rate": 0.0
+        },
+        {
+          "theta": 0.9191919191919192,
+          "hit_rate": 0.0,
+          "lure_fa_rate": 0.0,
+          "unrelated_fa_rate": 0.0
+        },
+        {
+          "theta": 0.9242424242424243,
+          "hit_rate": 0.0,
+          "lure_fa_rate": 0.0,
+          "unrelated_fa_rate": 0.0
+        },
+        {
+          "theta": 0.9292929292929293,
+          "hit_rate": 0.0,
+          "lure_fa_rate": 0.0,
+          "unrelated_fa_rate": 0.0
+        },
+        {
+          "theta": 0.9343434343434344,
+          "hit_rate": 0.0,
+          "lure_fa_rate": 0.0,
+          "unrelated_fa_rate": 0.0
+        },
+        {
+          "theta": 0.9393939393939394,
+          "hit_rate": 0.0,
+          "lure_fa_rate": 0.0,
+          "unrelated_fa_rate": 0.0
+        },
+        {
+          "theta": 0.9444444444444444,
+          "hit_rate": 0.0,
+          "lure_fa_rate": 0.0,
+          "unrelated_fa_rate": 0.0
+        },
+        {
+          "theta": 0.9494949494949496,
+          "hit_rate": 0.0,
+          "lure_fa_rate": 0.0,
+          "unrelated_fa_rate": 0.0
+        },
+        {
+          "theta": 0.9545454545454546,
+          "hit_rate": 0.0,
+          "lure_fa_rate": 0.0,
+          "unrelated_fa_rate": 0.0
+        },
+        {
+          "theta": 0.9595959595959596,
+          "hit_rate": 0.0,
+          "lure_fa_rate": 0.0,
+          "unrelated_fa_rate": 0.0
+        },
+        {
+          "theta": 0.9646464646464648,
+          "hit_rate": 0.0,
+          "lure_fa_rate": 0.0,
+          "unrelated_fa_rate": 0.0
+        },
+        {
+          "theta": 0.9696969696969697,
+          "hit_rate": 0.0,
+          "lure_fa_rate": 0.0,
+          "unrelated_fa_rate": 0.0
+        },
+        {
+          "theta": 0.9747474747474748,
+          "hit_rate": 0.0,
+          "lure_fa_rate": 0.0,
+          "unrelated_fa_rate": 0.0
+        },
+        {
+          "theta": 0.9797979797979799,
+          "hit_rate": 0.0,
+          "lure_fa_rate": 0.0,
+          "unrelated_fa_rate": 0.0
+        },
+        {
+          "theta": 0.9848484848484849,
+          "hit_rate": 0.0,
+          "lure_fa_rate": 0.0,
+          "unrelated_fa_rate": 0.0
+        },
+        {
+          "theta": 0.98989898989899,
+          "hit_rate": 0.0,
+          "lure_fa_rate": 0.0,
+          "unrelated_fa_rate": 0.0
+        },
+        {
+          "theta": 0.994949494949495,
+          "hit_rate": 0.0,
+          "lure_fa_rate": 0.0,
+          "unrelated_fa_rate": 0.0
+        },
+        {
+          "theta": 1.0,
+          "hit_rate": 0.0,
+          "lure_fa_rate": 0.0,
+          "unrelated_fa_rate": 0.0
+        }
+      ],
+      "overall": {
+        "hit_rate": 0.6055555555555555,
+        "lure_fa_rate": 1.0,
+        "unrelated_fa_rate": 0.0,
+        "threshold": 0.82,
+        "n_lists": 24
+      }
+    }
+  },
+  "aggregated": {
+    "hit_rate_mean": 0.6055555555555555,
+    "hit_rate_std": 0.0,
+    "hit_rate_ci": [
+      0.6055555555555555,
+      0.6055555555555555
+    ],
+    "lure_fa_mean": 1.0,
+    "lure_fa_std": 0.0,
+    "lure_fa_ci": [
+      1.0,
+      1.0
+    ],
+    "unrelated_fa_mean": 0.0,
+    "unrelated_fa_std": 0.0,
+    "threshold": 0.82
+  }
+}

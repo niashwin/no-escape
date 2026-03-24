@@ -1,0 +1,669 @@
+{
+  "architecture": "filesystem",
+  "experiment": "drm",
+  "per_seed": {
+    "42": {
+      "seed": 42,
+      "per_list": {
+        "SLEEP": {
+          "hit_rate": 0.0,
+          "lure_fa": 0,
+          "unrelated_fa": 0.0
+        },
+        "NEEDLE": {
+          "hit_rate": 0.0,
+          "lure_fa": 0,
+          "unrelated_fa": 0.0
+        },
+        "ROUGH": {
+          "hit_rate": 0.0,
+          "lure_fa": 0,
+          "unrelated_fa": 0.0
+        },
+        "SWEET": {
+          "hit_rate": 0.0,
+          "lure_fa": 0,
+          "unrelated_fa": 0.0
+        },
+        "CHAIR": {
+          "hit_rate": 0.0,
+          "lure_fa": 0,
+          "unrelated_fa": 0.0
+        },
+        "WINDOW": {
+          "hit_rate": 0.0,
+          "lure_fa": 0,
+          "unrelated_fa": 0.0
+        },
+        "SMELL": {
+          "hit_rate": 0.0,
+          "lure_fa": 0,
+          "unrelated_fa": 0.0
+        },
+        "MOUNTAIN": {
+          "hit_rate": 0.0,
+          "lure_fa": 0,
+          "unrelated_fa": 0.0
+        },
+        "MUSIC": {
+          "hit_rate": 0.0,
+          "lure_fa": 0,
+          "unrelated_fa": 0.0
+        },
+        "COLD": {
+          "hit_rate": 0.2,
+          "lure_fa": 0,
+          "unrelated_fa": 0.0
+        },
+        "ANGER": {
+          "hit_rate": 0.2,
+          "lure_fa": 0,
+          "unrelated_fa": 0.0
+        },
+        "DOCTOR": {
+          "hit_rate": 0.2,
+          "lure_fa": 0,
+          "unrelated_fa": 0.0
+        },
+        "RIVER": {
+          "hit_rate": 0.2,
+          "lure_fa": 0,
+          "unrelated_fa": 0.0
+        },
+        "FRUIT": {
+          "hit_rate": 0.2,
+          "lure_fa": 0,
+          "unrelated_fa": 0.0
+        },
+        "BLACK": {
+          "hit_rate": 0.0,
+          "lure_fa": 0,
+          "unrelated_fa": 0.0
+        },
+        "KING": {
+          "hit_rate": 0.0,
+          "lure_fa": 0,
+          "unrelated_fa": 0.0
+        },
+        "BREAD": {
+          "hit_rate": 0.0,
+          "lure_fa": 0,
+          "unrelated_fa": 0.0
+        },
+        "SPIDER": {
+          "hit_rate": 0.0,
+          "lure_fa": 0,
+          "unrelated_fa": 0.0
+        },
+        "SLOW": {
+          "hit_rate": 0.0,
+          "lure_fa": 0,
+          "unrelated_fa": 0.0
+        },
+        "MAN": {
+          "hit_rate": 0.0,
+          "lure_fa": 0,
+          "unrelated_fa": 0.0
+        },
+        "SOFT": {
+          "hit_rate": 0.0,
+          "lure_fa": 0,
+          "unrelated_fa": 0.0
+        },
+        "THIEF": {
+          "hit_rate": 0.0,
+          "lure_fa": 0,
+          "unrelated_fa": 0.0
+        },
+        "HIGH": {
+          "hit_rate": 0.0,
+          "lure_fa": 0,
+          "unrelated_fa": 0.0
+        },
+        "LION": {
+          "hit_rate": 0.0,
+          "lure_fa": 0,
+          "unrelated_fa": 0.0
+        }
+      },
+      "overall": {
+        "hit_rate": 0.041666666666666664,
+        "lure_fa_rate": 0.0,
+        "unrelated_fa_rate": 0.0,
+        "n_lists": 24
+      }
+    },
+    "123": {
+      "seed": 123,
+      "per_list": {
+        "SLEEP": {
+          "hit_rate": 0.0,
+          "lure_fa": 0,
+          "unrelated_fa": 0.0
+        },
+        "NEEDLE": {
+          "hit_rate": 0.0,
+          "lure_fa": 0,
+          "unrelated_fa": 0.0
+        },
+        "ROUGH": {
+          "hit_rate": 0.0,
+          "lure_fa": 0,
+          "unrelated_fa": 0.0
+        },
+        "SWEET": {
+          "hit_rate": 0.0,
+          "lure_fa": 0,
+          "unrelated_fa": 0.0
+        },
+        "CHAIR": {
+          "hit_rate": 0.0,
+          "lure_fa": 0,
+          "unrelated_fa": 0.0
+        },
+        "WINDOW": {
+          "hit_rate": 0.0,
+          "lure_fa": 0,
+          "unrelated_fa": 0.0
+        },
+        "SMELL": {
+          "hit_rate": 0.0,
+          "lure_fa": 0,
+          "unrelated_fa": 0.0
+        },
+        "MOUNTAIN": {
+          "hit_rate": 0.0,
+          "lure_fa": 0,
+          "unrelated_fa": 0.0
+        },
+        "MUSIC": {
+          "hit_rate": 0.2,
+          "lure_fa": 0,
+          "unrelated_fa": 0.0
+        },
+        "COLD": {
+          "hit_rate": 0.0,
+          "lure_fa": 0,
+          "unrelated_fa": 0.0
+        },
+        "ANGER": {
+          "hit_rate": 0.0,
+          "lure_fa": 0,
+          "unrelated_fa": 0.0
+        },
+        "DOCTOR": {
+          "hit_rate": 0.2,
+          "lure_fa": 0,
+          "unrelated_fa": 0.0
+        },
+        "RIVER": {
+          "hit_rate": 0.0,
+          "lure_fa": 0,
+          "unrelated_fa": 0.0
+        },
+        "FRUIT": {
+          "hit_rate": 0.2,
+          "lure_fa": 0,
+          "unrelated_fa": 0.0
+        },
+        "BLACK": {
+          "hit_rate": 0.0,
+          "lure_fa": 0,
+          "unrelated_fa": 0.0
+        },
+        "KING": {
+          "hit_rate": 0.0,
+          "lure_fa": 0,
+          "unrelated_fa": 0.0
+        },
+        "BREAD": {
+          "hit_rate": 0.0,
+          "lure_fa": 0,
+          "unrelated_fa": 0.0
+        },
+        "SPIDER": {
+          "hit_rate": 0.0,
+          "lure_fa": 0,
+          "unrelated_fa": 0.0
+        },
+        "SLOW": {
+          "hit_rate": 0.0,
+          "lure_fa": 0,
+          "unrelated_fa": 0.0
+        },
+        "MAN": {
+          "hit_rate": 0.0,
+          "lure_fa": 0,
+          "unrelated_fa": 0.0
+        },
+        "SOFT": {
+          "hit_rate": 0.2,
+          "lure_fa": 0,
+          "unrelated_fa": 0.0
+        },
+        "THIEF": {
+          "hit_rate": 0.2,
+          "lure_fa": 0,
+          "unrelated_fa": 0.0
+        },
+        "HIGH": {
+          "hit_rate": 0.0,
+          "lure_fa": 0,
+          "unrelated_fa": 0.0
+        },
+        "LION": {
+          "hit_rate": 0.0,
+          "lure_fa": 0,
+          "unrelated_fa": 0.0
+        }
+      },
+      "overall": {
+        "hit_rate": 0.041666666666666664,
+        "lure_fa_rate": 0.0,
+        "unrelated_fa_rate": 0.0,
+        "n_lists": 24
+      }
+    },
+    "456": {
+      "seed": 456,
+      "per_list": {
+        "SLEEP": {
+          "hit_rate": 0.0,
+          "lure_fa": 0,
+          "unrelated_fa": 0.0
+        },
+        "NEEDLE": {
+          "hit_rate": 0.0,
+          "lure_fa": 0,
+          "unrelated_fa": 0.0
+        },
+        "ROUGH": {
+          "hit_rate": 0.0,
+          "lure_fa": 0,
+          "unrelated_fa": 0.0
+        },
+        "SWEET": {
+          "hit_rate": 0.0,
+          "lure_fa": 0,
+          "unrelated_fa": 0.0
+        },
+        "CHAIR": {
+          "hit_rate": 0.0,
+          "lure_fa": 0,
+          "unrelated_fa": 0.0
+        },
+        "WINDOW": {
+          "hit_rate": 0.0,
+          "lure_fa": 0,
+          "unrelated_fa": 0.0
+        },
+        "SMELL": {
+          "hit_rate": 0.0,
+          "lure_fa": 0,
+          "unrelated_fa": 0.0
+        },
+        "MOUNTAIN": {
+          "hit_rate": 0.0,
+          "lure_fa": 0,
+          "unrelated_fa": 0.0
+        },
+        "MUSIC": {
+          "hit_rate": 0.4,
+          "lure_fa": 0,
+          "unrelated_fa": 0.0
+        },
+        "COLD": {
+          "hit_rate": 0.2,
+          "lure_fa": 0,
+          "unrelated_fa": 0.0
+        },
+        "ANGER": {
+          "hit_rate": 0.0,
+          "lure_fa": 0,
+          "unrelated_fa": 0.0
+        },
+        "DOCTOR": {
+          "hit_rate": 0.0,
+          "lure_fa": 0,
+          "unrelated_fa": 0.0
+        },
+        "RIVER": {
+          "hit_rate": 0.0,
+          "lure_fa": 0,
+          "unrelated_fa": 0.0
+        },
+        "FRUIT": {
+          "hit_rate": 0.2,
+          "lure_fa": 0,
+          "unrelated_fa": 0.0
+        },
+        "BLACK": {
+          "hit_rate": 0.0,
+          "lure_fa": 0,
+          "unrelated_fa": 0.0
+        },
+        "KING": {
+          "hit_rate": 0.2,
+          "lure_fa": 0,
+          "unrelated_fa": 0.0
+        },
+        "BREAD": {
+          "hit_rate": 0.0,
+          "lure_fa": 0,
+          "unrelated_fa": 0.0
+        },
+        "SPIDER": {
+          "hit_rate": 0.2,
+          "lure_fa": 0,
+          "unrelated_fa": 0.0
+        },
+        "SLOW": {
+          "hit_rate": 0.0,
+          "lure_fa": 0,
+          "unrelated_fa": 0.0
+        },
+        "MAN": {
+          "hit_rate": 0.0,
+          "lure_fa": 0,
+          "unrelated_fa": 0.0
+        },
+        "SOFT": {
+          "hit_rate": 0.0,
+          "lure_fa": 0,
+          "unrelated_fa": 0.0
+        },
+        "THIEF": {
+          "hit_rate": 0.0,
+          "lure_fa": 0,
+          "unrelated_fa": 0.0
+        },
+        "HIGH": {
+          "hit_rate": 0.0,
+          "lure_fa": 0,
+          "unrelated_fa": 0.0
+        },
+        "LION": {
+          "hit_rate": 0.0,
+          "lure_fa": 0,
+          "unrelated_fa": 0.0
+        }
+      },
+      "overall": {
+        "hit_rate": 0.05,
+        "lure_fa_rate": 0.0,
+        "unrelated_fa_rate": 0.0,
+        "n_lists": 24
+      }
+    },
+    "789": {
+      "seed": 789,
+      "per_list": {
+        "SLEEP": {
+          "hit_rate": 0.0,
+          "lure_fa": 0,
+          "unrelated_fa": 0.0
+        },
+        "NEEDLE": {
+          "hit_rate": 0.0,
+          "lure_fa": 0,
+          "unrelated_fa": 0.0
+        },
+        "ROUGH": {
+          "hit_rate": 0.4,
+          "lure_fa": 0,
+          "unrelated_fa": 0.0
+        },
+        "SWEET": {
+          "hit_rate": 0.0,
+          "lure_fa": 0,
+          "unrelated_fa": 0.0
+        },
+        "CHAIR": {
+          "hit_rate": 0.2,
+          "lure_fa": 0,
+          "unrelated_fa": 0.0
+        },
+        "WINDOW": {
+          "hit_rate": 0.0,
+          "lure_fa": 0,
+          "unrelated_fa": 0.0
+        },
+        "SMELL": {
+          "hit_rate": 0.0,
+          "lure_fa": 0,
+          "unrelated_fa": 0.0
+        },
+        "MOUNTAIN": {
+          "hit_rate": 0.2,
+          "lure_fa": 0,
+          "unrelated_fa": 0.0
+        },
+        "MUSIC": {
+          "hit_rate": 0.0,
+          "lure_fa": 0,
+          "unrelated_fa": 0.0
+        },
+        "COLD": {
+          "hit_rate": 0.0,
+          "lure_fa": 0,
+          "unrelated_fa": 0.0
+        },
+        "ANGER": {
+          "hit_rate": 0.2,
+          "lure_fa": 0,
+          "unrelated_fa": 0.0
+        },
+        "DOCTOR": {
+          "hit_rate": 0.0,
+          "lure_fa": 0,
+          "unrelated_fa": 0.0
+        },
+        "RIVER": {
+          "hit_rate": 0.0,
+          "lure_fa": 0,
+          "unrelated_fa": 0.0
+        },
+        "FRUIT": {
+          "hit_rate": 0.0,
+          "lure_fa": 0,
+          "unrelated_fa": 0.0
+        },
+        "BLACK": {
+          "hit_rate": 0.0,
+          "lure_fa": 0,
+          "unrelated_fa": 0.0
+        },
+        "KING": {
+          "hit_rate": 0.2,
+          "lure_fa": 0,
+          "unrelated_fa": 0.0
+        },
+        "BREAD": {
+          "hit_rate": 0.0,
+          "lure_fa": 0,
+          "unrelated_fa": 0.0
+        },
+        "SPIDER": {
+          "hit_rate": 0.2,
+          "lure_fa": 0,
+          "unrelated_fa": 0.0
+        },
+        "SLOW": {
+          "hit_rate": 0.0,
+          "lure_fa": 0,
+          "unrelated_fa": 0.0
+        },
+        "MAN": {
+          "hit_rate": 0.0,
+          "lure_fa": 0,
+          "unrelated_fa": 0.0
+        },
+        "SOFT": {
+          "hit_rate": 0.0,
+          "lure_fa": 0,
+          "unrelated_fa": 0.0
+        },
+        "THIEF": {
+          "hit_rate": 0.0,
+          "lure_fa": 0,
+          "unrelated_fa": 0.0
+        },
+        "HIGH": {
+          "hit_rate": 0.2,
+          "lure_fa": 0,
+          "unrelated_fa": 0.0
+        },
+        "LION": {
+          "hit_rate": 0.0,
+          "lure_fa": 0,
+          "unrelated_fa": 0.0
+        }
+      },
+      "overall": {
+        "hit_rate": 0.06666666666666667,
+        "lure_fa_rate": 0.0,
+        "unrelated_fa_rate": 0.0,
+        "n_lists": 24
+      }
+    },
+    "1024": {
+      "seed": 1024,
+      "per_list": {
+        "SLEEP": {
+          "hit_rate": 0.0,
+          "lure_fa": 0,
+          "unrelated_fa": 0.0
+        },
+        "NEEDLE": {
+          "hit_rate": 0.0,
+          "lure_fa": 0,
+          "unrelated_fa": 0.0
+        },
+        "ROUGH": {
+          "hit_rate": 0.0,
+          "lure_fa": 0,
+          "unrelated_fa": 0.0
+        },
+        "SWEET": {
+          "hit_rate": 0.0,
+          "lure_fa": 0,
+          "unrelated_fa": 0.0
+        },
+        "CHAIR": {
+          "hit_rate": 0.0,
+          "lure_fa": 0,
+          "unrelated_fa": 0.0
+        },
+        "WINDOW": {
+          "hit_rate": 0.2,
+          "lure_fa": 0,
+          "unrelated_fa": 0.0
+        },
+        "SMELL": {
+          "hit_rate": 0.0,
+          "lure_fa": 0,
+          "unrelated_fa": 0.0
+        },
+        "MOUNTAIN": {
+          "hit_rate": 0.0,
+          "lure_fa": 0,
+          "unrelated_fa": 0.0
+        },
+        "MUSIC": {
+          "hit_rate": 0.0,
+          "lure_fa": 0,
+          "unrelated_fa": 0.0
+        },
+        "COLD": {
+          "hit_rate": 0.0,
+          "lure_fa": 0,
+          "unrelated_fa": 0.0
+        },
+        "ANGER": {
+          "hit_rate": 0.0,
+          "lure_fa": 0,
+          "unrelated_fa": 0.0
+        },
+        "DOCTOR": {
+          "hit_rate": 0.0,
+          "lure_fa": 0,
+          "unrelated_fa": 0.0
+        },
+        "RIVER": {
+          "hit_rate": 0.0,
+          "lure_fa": 0,
+          "unrelated_fa": 0.0
+        },
+        "FRUIT": {
+          "hit_rate": 0.2,
+          "lure_fa": 0,
+          "unrelated_fa": 0.0
+        },
+        "BLACK": {
+          "hit_rate": 0.0,
+          "lure_fa": 0,
+          "unrelated_fa": 0.0
+        },
+        "KING": {
+          "hit_rate": 0.0,
+          "lure_fa": 0,
+          "unrelated_fa": 0.0
+        },
+        "BREAD": {
+          "hit_rate": 0.0,
+          "lure_fa": 0,
+          "unrelated_fa": 0.0
+        },
+        "SPIDER": {
+          "hit_rate": 0.0,
+          "lure_fa": 0,
+          "unrelated_fa": 0.0
+        },
+        "SLOW": {
+          "hit_rate": 0.4,
+          "lure_fa": 0,
+          "unrelated_fa": 0.0
+        },
+        "MAN": {
+          "hit_rate": 0.0,
+          "lure_fa": 0,
+          "unrelated_fa": 0.0
+        },
+        "SOFT": {
+          "hit_rate": 0.4,
+          "lure_fa": 0,
+          "unrelated_fa": 0.0
+        },
+        "THIEF": {
+          "hit_rate": 0.2,
+          "lure_fa": 0,
+          "unrelated_fa": 0.0
+        },
+        "HIGH": {
+          "hit_rate": 0.0,
+          "lure_fa": 0,
+          "unrelated_fa": 0.0
+        },
+        "LION": {
+          "hit_rate": 0.0,
+          "lure_fa": 0,
+          "unrelated_fa": 0.0
+        }
+      },
+      "overall": {
+        "hit_rate": 0.058333333333333334,
+        "lure_fa_rate": 0.0,
+        "unrelated_fa_rate": 0.0,
+        "n_lists": 24
+      }
+    }
+  },
+  "aggregated": {
+    "hit_rate_mean": 0.05166666666666667,
+    "hit_rate_std": 0.009718253158075502,
+    "lure_fa_mean": 0.0,
+    "lure_fa_std": 0.0,
+    "unrelated_fa_mean": 0.0,
+    "unrelated_fa_std": 0.0
+  }
+}

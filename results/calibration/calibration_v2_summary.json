@@ -1,0 +1,19 @@
+{
+  "ebbinghaus_b_at_1000": {
+    "value": 0.6142298686996859,
+    "pass": true
+  },
+  "drm_fa_at_0864": {
+    "value": 0.583,
+    "pass": true
+  },
+  "spacing_order": {
+    "long": 0.9019999999999999,
+    "massed": 0.36,
+    "pass": true
+  },
+  "tot_rate": {
+    "value": 0.0199,
+    "pass": "True"
+  }
+}

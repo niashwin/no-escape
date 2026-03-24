@@ -1,0 +1,8 @@
+{
+  "correlation": 0.21005950316947844,
+  "p_value": 0.0028316051738884055,
+  "n_pairs": 200,
+  "cosine_mean": 0.6427985687553882,
+  "llm_mean": 0.7070000000000001,
+  "spp_satisfied": false
+}
