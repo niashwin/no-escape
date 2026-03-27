@@ -3,7 +3,7 @@ data/
 *.npy
 
 # Root figures directory (use paper/figures/ instead)
-figures/
+/figures/
 
 # HIDE reference codebase (external dependency)
 hide-project*/
